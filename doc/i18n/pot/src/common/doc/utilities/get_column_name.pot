@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
+# This file is distributed under the same license as the pgRouting package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgRouting 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:13
+# 526a0ddd249e46e6a9e25e8998422f24
+msgid "pgr_getColumnName"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:20
+# 32a6c1a322384221b0da6d719cfea234
+msgid "Name"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:22
+# 95a0fbb6dba54a3cb1f0258420bc348f
+msgid "``pgr_getColumnName`` — Retrieves the name of the column as is stored in the postgres administration tables."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:24
+# c2751a2c57fb478492261797b19f20df
+msgid "This function is intended for the developer’s aid."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:27
+# 2e27b96ffb52432a9b051414679d102c
+msgid "Synopsis"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:29
+# 8d53212eb73a41408d48b00733481736
+msgid "Returns a ``text`` contining the registered name of the column."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:37
+# 43f728eb0d764cc8b665d51c9189e0d7
+msgid "Description"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:39
+# 8131efff89004a6782eed8401e9ab9eb
+msgid "Parameters"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:41
+# 2e50143652c14d69887fd342dc0e90d0
+msgid "``text`` table name with or without schema component."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:42
+# 87c6739491c7487691925bec9996d6c5
+msgid "``text`` column name to be retrived."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:44
+# fb45835deea74efeb365663674076375
+msgid "Returns"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:46
+# b1ada2f63184490d8fdfeae0181aa21a
+msgid "``text`` containing the registered name of the column."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:47
+# c81850b0d5784f6d9770587aef946d33
+msgid "``NULL`` when :"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:49
+# f6ed16fbc620464ba0f65e3c036ead19
+msgid "The table “tab” is not found or"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:50
+# 92a3e1c00fc848ccafb2f46819d75aff
+msgid "Column “col” is not found in table “tab” in the postgres administration tables."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:53
+# 47c41e458bc349689d630d36e2b13f7b
+msgid "History"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:54
+# 2ed49c9972494ec68b4479e7bd9c22eb
+msgid "New in version 2.0.0"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:58
+# d1c413932f304c1ba982805c3d50f321
+msgid "Examples"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:76
+# 201433ea11fb4b83a9f43845e490dbcc
+msgid "The queries use the :ref:`sampledata` network."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:80
+# 59bcdea0899445968669160731d5a7c6
+msgid "See Also"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:82
+# 424d83fda9a549f684f507b678059ad2
+msgid ":ref:`developer` for the tree layout of the project."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:83
+# b1f82d812bca4f5e889238ecd0689629
+msgid ":ref:`pgr_is_column_in_table` to check only for the existance of the column."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/get_column_name.rst:84
+# 45441e0b8656402d9c57053884c53908
+msgid ":ref:`pgr_get_table_name` to retrieve the name of the table as is stored in the postgres administration tables."
+msgstr ""
+

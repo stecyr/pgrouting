@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) pgRouting Contributors - Version 2.0.0-dev (129919f develop)
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
 # This file is distributed under the same license as the pgRouting package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgRouting 2.0.0-dev\n"
+"Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:47\n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,118 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/tutorial/custom_query.rst:13
-# b91f0d6588cf4d91a064ad81536cb9a5
+# 16bdaa81f3f447548150912819c89bd0
 msgid "Custom Query"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:17
+# 79be87d36d5f4cc6b7cdca01896f8f62
+msgid "In general, the routing algorithms need an SQL query that contain one or more of the following required columns with the preferred type:"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:19
+#: ../../src/tutorial/custom_query.rst:20
+#: ../../src/tutorial/custom_query.rst:21
+# 9e8241eb8326466784e0afc7feebffd7
+# 6fe6705294114aa299cade22e4b5227c
+# 8839a87dc95444c5a26a3cb7dab01096
+msgid "int4"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:22
+#: ../../src/tutorial/custom_query.rst:23
+#: ../../src/tutorial/custom_query.rst:24
+#: ../../src/tutorial/custom_query.rst:25
+#: ../../src/tutorial/custom_query.rst:26
+#: ../../src/tutorial/custom_query.rst:27
+#: ../../src/tutorial/custom_query.rst:28
+#: ../../src/tutorial/custom_query.rst:29
+#: ../../src/tutorial/custom_query.rst:63
+# 8c4421130acb4d579afeee5e7341c49a
+# 240207deb321447f9db574e866c15a4a
+# 37b679daa1b54a4ab990e04308ba44a0
+# 04f18480c74a4df8948144a52f020893
+# 48f39cbb2e444384ac843289c3c80b95
+# 0ec09872d4eb4da19f033a3c7993b18e
+# 60abc7603f04437a99d821b01611350d
+# 50ff56d0a8b945829204207b0bf2e998
+# d664ba1bbf8a4bde9fccdd7d8dbde27d
+msgid "float8"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:31
+# cba080b3896849e0bb26beec24d659cb
+msgid "When the edge table has the mentioned columns, the following SQL queries can be used."
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:39
+# 21bc142cc92342c4ac223124f63c0ecf
+msgid "When the edge table has a different name to represent the required columns:"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:51
+# 407c50a01df94b27ad7ee6c0c88d4aab
+msgid "The topology functions use the same names for ``id``, ``source`` and ``target`` columns of the edge table, The fowllowing parameters have as default value:"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:53
+# 958c6bd56691447ea4d1edce7db9c8e9
+msgid "int4 Default ``id``"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:54
+# 298b829e4f11496e95b2e91ae3de9345
+msgid "int4 Default ``source``"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:55
+# a2d2353b90f348cba7cf60d9c9a354b6
+msgid "int4 Default ``target``"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:56
+# e87d5bf9af1146a4bf8e513e76b3dcab
+msgid "text Default ``the_geom``"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:57
+# a9115e58d5bd4cd89957d746ad45ca5e
+msgid "text Default ``oneway``"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:58
+# c311627eb58e42bbae9916a5aba67f66
+msgid "text Default ``true`` to indicate all rows (this is not a column)"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:60
+# d97bd6a173c449dc8127167612ac6182
+msgid "The following parameters do not have a default value and when used they have to be inserted in strict order:"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:62
+# 3ef6ae3f282c4bcdb010adcf36c3a5d7
+msgid "text"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:64
+#: ../../src/tutorial/custom_query.rst:65
+#: ../../src/tutorial/custom_query.rst:66
+#: ../../src/tutorial/custom_query.rst:67
+# a3ee4f93c1754b989982f8329c82faea
+# 7fb4f79513314c5394495bf1b0ee5959
+# 596630fb65d4442c8a8f87b9c74df279
+# b2c2a586b2c543bdb74ab104b3cf4e67
+msgid "text[]"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:69
+# f79a820dee9f42f6844e8a95f2aa769d
+msgid "When the columns required have the default names this can be used (pgr_func is to represent a topology function)"
+msgstr ""
+
+#: ../../src/tutorial/custom_query.rst:79
+# b1a3ad26c9b3493ab96d1acf2bc14182
+msgid "When the columns required do not have the default names its strongly recomended to use the *named notation*."
 msgstr ""
 

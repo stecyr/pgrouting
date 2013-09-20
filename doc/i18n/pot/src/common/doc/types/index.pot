@@ -16,8 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../src/tutorial/index.rst:13
-# a11654c578e24568be314c42f8ba3514
-msgid "Tutorial"
+#: ../../../src/common/doc/types/index.rst:13
+# ee0e30f7c1104b899a348684f60f4966
+msgid "pgRouting Data Types"
+msgstr ""
+
+#: ../../../src/common/doc/types/index.rst:15
+# f1c9397a380b4023bc102c2c4ba8b4a6
+msgid "The following are commonly used data types for some of the pgRouting functions."
 msgstr ""
 

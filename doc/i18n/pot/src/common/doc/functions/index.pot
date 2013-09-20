@@ -16,8 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../src/tutorial/index.rst:13
-# a11654c578e24568be314c42f8ba3514
-msgid "Tutorial"
+#: ../../../src/common/doc/functions/index.rst:13
+# b1455e75dc80458a92bea663db662fa6
+msgid "Topology Functions"
+msgstr ""
+
+#: ../../../src/common/doc/functions/index.rst:15
+# 5cba83b62b9f4983a15a023c2a285d47
+msgid "The pgRouting's topology of a network, represented with an edge table with source and target attributes and a vertices table associated with it. Depending on the algorithm, you can create a topology or just reconstruct the vertices table, You can analyze the topology, We also provide a function to node an unoded network."
 msgstr ""
 

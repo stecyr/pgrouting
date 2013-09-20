@@ -16,8 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../src/tutorial/index.rst:13
-# a11654c578e24568be314c42f8ba3514
-msgid "Tutorial"
+#: ../../../src/index.rst:13
+# 142078bb84c5425288ce1900ffe7b2dd
+msgid "Routing Functions"
+msgstr ""
+
+#: ../../../src/index.rst:29
+# 0c0f242470ca42c391d7b89b9ce50b18
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../../src/index.rst:30
+# 7a3d61410c814e4da290a1857f57a3f5
+msgid ":ref:`search`"
 msgstr ""
 

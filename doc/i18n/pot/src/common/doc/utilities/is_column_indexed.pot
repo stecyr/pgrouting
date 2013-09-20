@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
+# This file is distributed under the same license as the pgRouting package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgRouting 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:13
+# 983bbbf83c904964b92230c217c8536c
+msgid "pgr_isColumnIndexed"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:20
+# e1d6f900a0eb4d9d98d8e08a3c22e9e1
+msgid "Name"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:22
+# a15aeac96de247e580ff5c79ecbc1a79
+msgid "``pgr_isColumnIndexed`` — Check if a column in a table is indexed."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:24
+# ff67337507cb404a8addc8da56fe4f00
+msgid "This function is intended for the developer’s aid."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:27
+# 4b37ef8c4e344ba7984497a5e857e3ad
+msgid "Synopsis"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:29
+# ca95a28dc81145c7b09c90cc5071a46e
+msgid "Returns ``true`` when the column “col” in table “tab” is indexed."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:37
+# 28fc12d4714a431985bab7a75c6b24e4
+msgid "Description"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:39
+# 6bb1c11db1e0424598ae4785dbc231a8
+msgid "``text`` Table name with or without schema component."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:40
+# 46dd898c6a6b47e0a112d587da0d8528
+msgid "``text`` Column name to be checked for."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:42
+# a24b17db6b154c1698b02a5534bdaa7c
+msgid "Returns:"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:44
+# 37c740ccd7364131962c7aa3a43c2cec
+msgid "``true`` when the column “col” in table “tab” is indexed."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:45
+# 6a1c562216dc474a879d2a5938b1b223
+msgid "``false`` when:"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:47
+# 42e2edd9687a480f9f38cbffcc7c6787
+msgid "The table \"tab\" is not found or"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:48
+# 88733dc95372480b9ff98fa9b0a4334f
+msgid "Column “col” is not found in table “tab” or"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:49
+# 8f1363f72b6b45cd9073fe5ec986e23d
+msgid "Column \"col\" in table \"tab\" is not indexed"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:52
+# 19c72e27bb4345f58ae6e51429d0998d
+msgid "History"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:53
+# 2ccbaae4e65b430c98fa9767c89614ff
+msgid "New in version 2.0.0"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:57
+# 117ab05ba67a4488a9f71c77d1231d62
+msgid "Examples"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:77
+# 18611d47bf4b4575b99dda5ea9aa3989
+msgid "The example use the :ref:`sampledata` network."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:81
+# e375ced3278b4d29b4371f94b8662bd0
+msgid "See Also"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:83
+# bd53b1ea7c4343ac857e6ab9e761bb3e
+msgid ":ref:`developer` for the tree layout of the project."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:84
+# 0f3d0332f62448369375cec982abba19
+msgid ":ref:`pgr_is_column_in_table` to check only for the existance of the column in the table."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:85
+# 8ea1f7dd082d493d9775de784215533a
+msgid ":ref:`pgr_get_column_name` to get the name of the column as is stored in the postgres administration tables."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/is_column_indexed.rst:86
+# ab7633a980d84dbf8d8af8bf245a85a6
+msgid ":ref:`pgr_get_table_name` to get the name of the table as is stored in the postgres administration tables."
+msgstr ""
+

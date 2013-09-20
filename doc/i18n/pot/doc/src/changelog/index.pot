@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../src/tutorial/index.rst:13
-# a11654c578e24568be314c42f8ba3514
-msgid "Tutorial"
+#: ../../src/changelog/index.rst:13
+# 73fca54936ea41ad8f4665fae8197597
+msgid "Release Notes"
 msgstr ""
 

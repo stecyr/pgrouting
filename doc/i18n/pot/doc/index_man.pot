@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) pgRouting Contributors - Version 2.0.0-dev (129919f develop)
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
 # This file is distributed under the same license as the pgRouting package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgRouting 2.0.0-dev\n"
+"Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:47\n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,37 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../index_man.rst:13
-# 1914a1b474a149c8bbaf65aeab14378a
+# 8065d182572d4d6eb996fb4dd8f97def
 msgid "pgRouting Reference"
 msgstr ""
 
 #: ../../index_man.rst:15
-# 8093a8913a4f4de1a13bd5ed9a619b72
+# 39baafa604cf4ddf953ef773739adb18
 msgid "pgRouting extends the `PostGIS <http://postgis.net>`_/`PostgreSQL <http://postgresql.org>`_ geospatial database to provide geospatial routing and other network analysis functionality."
 msgstr ""
 
 #: ../../index_man.rst:22
-# 35dff83aa750409290fa37e47d0cf9e2
+# f3173da3e020473fb662a61f2b901ab5
 msgid "pgRouting provides several :ref:`common functions <common>`:"
 msgstr ""
 
 #: ../../index_man.rst:36
-# 2f13f00ffd924bf1a61060f32ef5d04f
-msgid "pgRouting defines a few :ref:`custom data types <common_types>`:"
+# 18ca983d196145c69ac4f94319c062ab
+msgid "pgRouting defines a few :ref:`custom data types <data_types>`:"
 msgstr ""
 
 #: ../../index_man.rst:50
-# d906d773bf39489380f6f3f4f1eba3ce
+# f0fbe0a32001469ea6b58f7d4f55af76
 msgid "pgRouting functions in alphabetical order:"
 msgstr ""
 
 #: ../../index_man.rst:66
-# cc9325b2512b410daae91fb42c066dd8
+# f9842a77790c4b638035b3c49b2ec3bf
 msgid "If pgRouting is compiled with \"Driving Distance\" enabled:"
 msgstr ""
 
 #: ../../index_man.rst:75
-# 8fbb1152017e48edbacdbbae19413776
+# 2d4a043163774513ab417abd8c80eb5e
 msgid "Some functions from previous releases may have been removed."
 msgstr ""
 

@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) pgRouting Contributors - Version 2.0.0-dev (129919f develop)
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
 # This file is distributed under the same license as the pgRouting package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgRouting 2.0.0-dev\n"
+"Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:47\n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/developer/sampledata.rst:13
-# 57710d17ae7543e2b771629aff75600e
+# fa763b9ae030462eba9c3f95fe79a92e
 msgid "Sample Data"
 msgstr ""
 
 #: ../../src/developer/sampledata.rst:15
-# 7f421eecf5044efd98b200b36124a83c
-msgid "The documentation provides very simple example queries based on a small sample network. To be able to execute the sample queries, run the following SQL commands to create a table with a small network dataset."
+# 4a9ae9b5697f4ecfa8c72486e6d5e119
+msgid "The documentation provides very simple example queries based on a small sample network. To be able to execute the sample queries, run the following SQL commands to create a table with a small network data set."
 msgstr ""
 
-#: ../../src/developer/sampledata.rst:21
-# 22d8afba7fd34fd6b7bf201ba4e1ba0c
+#: ../../src/developer/sampledata.rst:20
+# a0cc62e65a204250a7699d1a5979f131
 msgid "Create table"
 msgstr ""
 
-#: ../../src/developer/sampledata.rst:50
-# 39ea0437205c4eaca6eb612e61a74795
+#: ../../src/developer/sampledata.rst:40
+# 6ac69d6085ca4175ab76fd009578e356
 msgid "Insert network data"
+msgstr ""
+
+#: ../../src/developer/sampledata.rst:70
+# bb6e68dca5034ccb94fdec3a248fa051
+msgid "Before you test a routing function use this query to fill the source and target columns."
+msgstr ""
+
+#: ../../src/developer/sampledata.rst:77
+# f6dbf679c72343c79cf6ab2deebe3fee
+msgid "This table is used in some of our examples"
+msgstr ""
+
+#: ../../src/developer/sampledata.rst:94
+# a821cb9f158940718f80b723018715a0
+msgid "The network created in *edge_table*"
 msgstr ""
 

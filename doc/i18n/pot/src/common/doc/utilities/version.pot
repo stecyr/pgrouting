@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
+# This file is distributed under the same license as the pgRouting package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgRouting 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../src/common/doc/utilities/version.rst:13
+# e617842fff7e4590a740d4db7a603289
+msgid "pgr_version"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:20
+# 2319c2bd893a40f19b09f8713dbb9dbb
+msgid "Name"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:22
+# 0ecdb3b64df94b378d6952fe1a39f8cf
+msgid "``pgr_version`` — Query for pgRouting version information."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:26
+# e85937df6d3c4df7b1e7f05b75afae7c
+msgid "Synopsis"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:28
+# 9218c6ee4f234be395c986f8177fe825
+msgid "Returns a table with pgRouting version information."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:36
+# 4d6de60ab9b741c5ad667ca58d2709c0
+msgid "Description"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:38
+# 1ce57ae4982f4bc3b06ca32ab1ebe2d2
+msgid "Returns a table with:"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:40
+# d268d3f737054e599fb05c17c5b8fdd0
+msgid "``varchar`` pgRouting version"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:41
+# abf0f4960d7b45b58cb5c4ee4c557c33
+msgid "``varchar`` Git tag of pgRouting build"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:42
+# 95d785f53ba84444a8424a771a31c6a0
+msgid "``varchar`` Git hash of pgRouting build"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:43
+# 4a83b180c0d146809021c848113bd6cc
+msgid "``varchar`` Git branch of pgRouting build"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:44
+# a17354c13bfe42ff8dc06e4250424637
+msgid "``varchar`` Boost version"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:48
+# 89ace1e077b44091865adc295dbae320
+msgid "History"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:49
+# 5ad7543820df4cc1b429488c184017d0
+msgid "New in version 2.0.0"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:53
+# 7e039ce31f874269a1c22bda42fd5f1e
+msgid "Examples"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:55
+# 542228b72b36476bb0a90e31394792a0
+msgid "Query for full version string"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:67
+# 74aa95d7365f4f8cad395a5bbd03cd71
+msgid "Query for ``version`` and ``boost`` attribute"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:80
+# 2dc137a61baf408d9fbcd1fb3cf7ee5c
+msgid "See Also"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/version.rst:82
+# f9eec9c77844460e8a65262212b186cc
+msgid ":ref:`pgr_versionless` to compare two version numbers"
+msgstr ""
+

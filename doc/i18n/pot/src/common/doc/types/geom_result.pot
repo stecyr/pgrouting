@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) pgRouting Contributors - Version 2.0.0-dev (129919f develop)
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
 # This file is distributed under the same license as the pgRouting package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgRouting 2.0.0-dev\n"
+"Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:47\n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,64 +17,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/common/doc/types/geom_result.rst:13
-# ebb698d42ab84a70942c2dc642d8689f
-msgid "pgr_geomResult[] - Path Result with Geometry"
+# 146f5b9055654b7eb8d8cdc78f36b034
+msgid "pgr_geomResult[]"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:20
-# 8c1135709e1f42109f51dbb19b910d32
+# 47e0505142744600ae2c11a116904918
 msgid "Name"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:22
-# 0504426205734e54acafe64e1643ba59
+# e1df6260d95248e39f2026364284ac4a
 msgid "``pgr_geomResult[]`` — A set of records to describe a path result with geometry attribute."
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:26
-# 2fe63836e36143c0bf782667d44aeb1d
+# 141b670016ed4764956da66987b7fbe2
 msgid "Description"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:38
-# c4356f080cdd45cdbea91b19f382af17
+# 28f9b6fd42264a49b1fcc67fa37a7e37
 msgid "sequential ID indicating the path order"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:39
 #: ../../../src/common/doc/types/geom_result.rst:40
-# 28be111f472d4c46a2c96c103a8cab20
-# fd4d6b299a42442788d2806bbc172ecb
+# 5134408dd01b4b148d36e56f3b17abe7
+# 92f4a7da04a14a049beab2e10643e11e
 msgid "generic name, to be specified by the function"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:41
-# 3023c0d4cc7d442cb916111f5fb9e5c7
+# 2e02e4ffced048408322a1a5bee9c9c2
 msgid "geometry attribute"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:45
-# 2a15ebb2d4364c599e179e0452466759
+# e507bbef07814433b53244a05466e96d
 msgid "History"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:46
-# e5e6297149664f34a89b901e03434765
+# 9184f832bda5437e9f966c206ec015da
 msgid "New in version 2.0.0"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:47
-# 746866b5d04349148e7dee1f0906a73b
+# 3b46cdffab3345e6a75406aee74d1ad1
 msgid "Replaces ``geoms``"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:51
-# 162b0b55bea4444680b5a7645d7e2f48
+# d8d607b479084f98b9640fdebde96b61
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:53
-# 5bd464cbd0fa498883a6e166120ca90b
-msgid ":ref:`common_types`"
+# 1b1feb6ae64346429f75247fb3175cf9
+msgid ":ref:`introduction`"
 msgstr ""
 

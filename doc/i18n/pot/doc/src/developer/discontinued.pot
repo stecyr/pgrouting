@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) pgRouting Contributors - Version 2.0.0-dev (129919f develop)
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
 # This file is distributed under the same license as the pgRouting package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgRouting 2.0.0-dev\n"
+"Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:47\n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/developer/discontinued.rst:13
-# 09366a0298d04b47be343c8bf8c6e12a
+# 8adaa732333f4ecd88677a7ee9e78737
 msgid "Discontinued Functions"
 msgstr ""
 
 #: ../../src/developer/discontinued.rst:15
-# 8ab172e3591c493f94919b9391d65313
+# 61e8afcd055b48b88f828fb5998d0ac2
 msgid "Especially with new major releases functionality may change and functions may be discontinued for various reasons. Functionality that has been discontinued will be listed here."
 msgstr ""
 
 #: ../../src/developer/discontinued.rst:22
-# 6bb9bb9b649544eb9384e2c03fa6e60d
+# f118e9c6e9ce4e28920293f89f70faf0
 msgid "Shooting Star algorithm"
 msgstr ""
 
 #: ../../src/developer/discontinued.rst:24
-# 6c87b9ac3f1b441a88d4bd7a32449eeb
+# a1f8bc84097f4e2b8da5e7195e7388d8
 msgid "Removed with 2.0.0"
 msgstr ""
 
 #: ../../src/developer/discontinued.rst:25
-# 6afa2318319f4b5e93e9eb99d1dd1843
+# 29daf9711ff14f92a73474d7832742b3
 msgid "Unresolved bugs, no maintainer, replaced with :ref:`trsp`"
 msgstr ""
 
 #: ../../src/developer/discontinued.rst:26
-# 7e711820b4534143a7fd0d1aa4c5cc58
+# fcc9cc47a4594efb9dc2dba082e72415
 msgid "Please :ref:`contact us <support>` if you're interested to sponsor or maintain this algorithm. The function signature is still available in :ref:`common_legacy` but it is just a wrapper that throws an error. We have not included any of the old code for this in this release."
 msgstr ""
 

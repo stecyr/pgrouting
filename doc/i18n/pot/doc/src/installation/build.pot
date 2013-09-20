@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) pgRouting Contributors - Version 2.0.0-dev (129919f develop)
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
 # This file is distributed under the same license as the pgRouting package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgRouting 2.0.0-dev\n"
+"Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:47\n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,72 +17,112 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/installation/build.rst:13
-# c5cf6a87972b42e690264e99c7e7f795
+# a39aec625ccb4cd4829c1060cf1f5588
 msgid "Build Guide"
 msgstr ""
 
 #: ../../src/installation/build.rst:15
-# 5527da7dad584795b7924d50c9a79bc5
+# 56a865f9fdd042ae8ef31b14c59af1b9
 msgid "To be able to compile pgRouting make sure that the following dependencies are met:"
 msgstr ""
 
 #: ../../src/installation/build.rst:17
-# c618619f835444dd967f78370b841d92
+# 88fdad23e6034802b9aefded77270865
 msgid "C and C++ compilers"
 msgstr ""
 
 #: ../../src/installation/build.rst:18
-# c6f85509591d47b1bdd395919b761319
+# a9d37a33ef4f49bb89a0552c43d90f73
 msgid "Postgresql version >= 8.4 (>= 9.1 recommended)"
 msgstr ""
 
 #: ../../src/installation/build.rst:19
-# 61951def91f1402395e57355188cec62
+# 925a89b4c6ec4ecea3502cc1438778fc
 msgid "PostGIS version >= 1.5 (>= 2.0 recommended)"
 msgstr ""
 
 #: ../../src/installation/build.rst:20
-# 6a0e008243f44ec2bb618be4f76a271c
+# e21a0c12e1de48c4a3aa2ece1a28d01e
 msgid "The Boost Graph Library (BGL). Version >= [TBD]"
 msgstr ""
 
 #: ../../src/installation/build.rst:21
-# 2179e1be36474631a70ac3b85e801064
+# b1b537a2789a479e9e92517c81119780
 msgid "CMake >= 2.8.8"
 msgstr ""
 
 #: ../../src/installation/build.rst:22
-# a2d266c73ac3427a99d9bf46c26d448c
+# 55f0355e46a3440a8b3cad709d60b197
 msgid "(optional, for Driving Distance) CGAL >= [TBD]"
 msgstr ""
 
 #: ../../src/installation/build.rst:23
-# ae32d61c4d0e4d94ab13d2c5f5a63605
+# 4b44e9e2ab7749fcbe0a146d0f5b1dbe
 msgid "(optional, for Documentation) Sphinx >= 1.1"
 msgstr ""
 
-#: ../../src/installation/build.rst:27
-# e4af919f484c44b5abe44e0b1687d39d
+#: ../../src/installation/build.rst:24
+# 884d2299d064434d9fcc9ed13c49f70b
+msgid "(optional, for Documentation as PDF) Latex >= [TBD]"
+msgstr ""
+
+#: ../../src/installation/build.rst:26
+# 071c2fa329914d26800e476b019a0d26
+msgid "The cmake system has variables the can be configured via the command line options by setting them with -D<varable>=<value>. You can get a listing of these via:"
+msgstr ""
+
+#: ../../src/installation/build.rst:34
+# ed49d9d2e4544286959bb405be37fa67
+msgid "Currently these are:"
+msgstr ""
+
+#: ../../src/installation/build.rst:36
+# 36147d72dce34f318d0b2eab31cf05f6
+msgid "Boost_DIR:PATH=Boost_DIR-NOTFOUND CMAKE_BUILD_TYPE:STRING= CMAKE_INSTALL_PREFIX:PATH=/usr/local POSTGRESQL_EXECUTABLE:FILEPATH=/usr/lib/postgresql/9.2/bin/postgres POSTGRESQL_PG_CONFIG:FILEPATH=/usr/bin/pg_config WITH_DD:BOOL=ON WITH_DOC:BOOL=OFF BUILD_HTML:BOOL=ON BUILD_LATEX:BOOL=OFF BUILD_MAN:BOOL=ON"
+msgstr ""
+
+#: ../../src/installation/build.rst:47
+# d46aa478d12e441eb1d15dda63cf7d78
+msgid "These also show the current or default values based on our development system. So your values my be different. In general the ones that are of most interest are:"
+msgstr ""
+
+#: ../../src/installation/build.rst:49
+# 2510680de50745c59fbca002b59bdc10
+msgid "WITH_DD:BOOL=ON       -- Turn on/off building driving distance code. WITH_DOC:BOOL=OFF     -- Turn on/off building the documentation BUILD_HTML:BOOL=ON    -- If WITH_DOC=ON, turn on/off building HTML BUILD_LATEX:BOOL=OFF  -- If WITH_DOC=ON, turn on/off building PDF BUILD_MAN:BOOL=ON     -- If WITH_DOC=ON, turn on/off building MAN pages"
+msgstr ""
+
+#: ../../src/installation/build.rst:55
+# bab18676f92b47eeb735b555d1ad3f5e
+msgid "To change any of these add ``-D<variable>=<value>`` to the cmake lines below. For example to turn on documentation, your cmake command might look like:"
+msgstr ""
+
+#: ../../src/installation/build.rst:62
+# 9dc74e493c1a4a86bf5b515365a5a9e7
+msgid "If you turn on the documentation, you also need to add the ``doc`` target to the make command."
+msgstr ""
+
+#: ../../src/installation/build.rst:72
+# 81b690bbc72045418c423865a82a1b76
 msgid "For MinGW on Windows"
 msgstr ""
 
-#: ../../src/installation/build.rst:39
-# b52927567d764a66bf438f60b059cec7
+#: ../../src/installation/build.rst:84
+# db4839b2b78b4c3c8c4332221c310fdc
 msgid "For Linux"
 msgstr ""
 
-#: ../../src/installation/build.rst:51
-# 0cca23f827f646d08e5a07057f388eb0
+#: ../../src/installation/build.rst:96
+# 15b0571c50ad493dae80164b88aa7909
 msgid "With Documentation"
 msgstr ""
 
-#: ../../src/installation/build.rst:53
-# 2addc81e2db341c797d8531756937c4e
+#: ../../src/installation/build.rst:98
+# c1854d7cb64d42e286f1f8e6b24329fc
 msgid "Build with documentation (requires `Sphinx <http://sphinx-doc.org/>`_):"
 msgstr ""
 
-#: ../../src/installation/build.rst:60
-# 27e2e61f20fe4b048aa384365b49ced1
+#: ../../src/installation/build.rst:106
+# dc11a57c682a43eba0f9209429448cb0
 msgid "Rebuild modified documentation only:"
 msgstr ""
 
