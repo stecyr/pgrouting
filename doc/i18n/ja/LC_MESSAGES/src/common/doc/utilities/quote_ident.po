@@ -1,0 +1,108 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: pgRouting 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:13
+msgid "pgr_quote_ident"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:20
+msgid "Name"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:22
+msgid ""
+"``pgr_quote_ident`` — Quotes the input text to be used as an identifier in "
+"an SQL statement string."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:24
+msgid "This function is intended for the developer's aid."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:28
+msgid "Synopsis"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:30
+msgid ""
+"Returns the given identifier ``idname`` suitably quoted to be used as an "
+"identifier in an SQL statement string."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:38
+msgid "Description"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:41
+msgid "Parameters"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:42
+msgid ""
+"``text`` Name of an SQL identifier. Can include ``.`` dot notation for "
+"schemas.table identifiers"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:44
+msgid ""
+"Returns the given string suitably quoted to be used as an identifier in an "
+"SQL statement string."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:46
+msgid ""
+"When the identifier ``idname`` contains on or more ``.`` separators, each "
+"component is suitably quoted to be used in an SQL string."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:50
+msgid "History"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:51
+msgid "New in version 2.0.0"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:55
+msgid "Examples"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:57
+msgid "Everything is lower case so nothing needs to be quoted."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:76
+msgid "The column is upper case so its double quoted."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:95
+msgid "The schema name has a capital letter so its double quoted."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:106
+msgid "Ignores extra ``.`` separators."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:118
+msgid "See Also"
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:120
+msgid ":ref:`developer` for the tree layout of the project."
+msgstr ""
+
+#: ../../../src/common/doc/utilities/quote_ident.rst:121
+msgid ""
+":ref:`pgr_get_table_name` to get the name of the table as is stored in the "
+"postgres administration tables."
+msgstr ""

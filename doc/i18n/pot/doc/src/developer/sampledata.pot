@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,37 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/developer/sampledata.rst:13
-# fa763b9ae030462eba9c3f95fe79a92e
+# 8292d60ebfc34fb492ea6193998bab3e
 msgid "Sample Data"
 msgstr ""
 
 #: ../../src/developer/sampledata.rst:15
-# 4a9ae9b5697f4ecfa8c72486e6d5e119
+# 4b0d58dd2dff4d9c97134f99fe6b536f
 msgid "The documentation provides very simple example queries based on a small sample network. To be able to execute the sample queries, run the following SQL commands to create a table with a small network data set."
 msgstr ""
 
 #: ../../src/developer/sampledata.rst:20
-# a0cc62e65a204250a7699d1a5979f131
+# e01baf347c854525b5c3bdc1af8d1523
 msgid "Create table"
 msgstr ""
 
 #: ../../src/developer/sampledata.rst:40
-# 6ac69d6085ca4175ab76fd009578e356
+# f6ec8db09c164800a1e2d817a06e2a20
 msgid "Insert network data"
 msgstr ""
 
 #: ../../src/developer/sampledata.rst:70
-# bb6e68dca5034ccb94fdec3a248fa051
+# 41d209ca693c4739986152fcdfcb3d25
 msgid "Before you test a routing function use this query to fill the source and target columns."
 msgstr ""
 
 #: ../../src/developer/sampledata.rst:77
-# f6dbf679c72343c79cf6ab2deebe3fee
+# 449efcf19ef14ade9797f5818e87ab24
 msgid "This table is used in some of our examples"
 msgstr ""
 
 #: ../../src/developer/sampledata.rst:94
-# a821cb9f158940718f80b723018715a0
+# eb2ac2aa18da494185f02f4a2fe0427d
 msgid "The network created in *edge_table*"
 msgstr ""
 

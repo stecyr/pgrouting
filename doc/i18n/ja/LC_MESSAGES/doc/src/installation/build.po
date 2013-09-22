@@ -65,27 +65,80 @@ msgid "(optional, for Documentation) Sphinx >= 1.1"
 msgstr ""
 
 # e4af919f484c44b5abe44e0b1687d39d
-#: ../../src/installation/build.rst:27
+#: ../../src/installation/build.rst:72
 msgid "For MinGW on Windows"
 msgstr ""
 
 # b52927567d764a66bf438f60b059cec7
-#: ../../src/installation/build.rst:39
+#: ../../src/installation/build.rst:84
 msgid "For Linux"
 msgstr ""
 
 # 0cca23f827f646d08e5a07057f388eb0
-#: ../../src/installation/build.rst:51
+#: ../../src/installation/build.rst:96
 msgid "With Documentation"
 msgstr ""
 
 # 2addc81e2db341c797d8531756937c4e
-#: ../../src/installation/build.rst:53
+#: ../../src/installation/build.rst:98
 msgid ""
 "Build with documentation (requires `Sphinx <http://sphinx-doc.org/>`_):"
 msgstr ""
 
 # 27e2e61f20fe4b048aa384365b49ced1
-#: ../../src/installation/build.rst:60
+#: ../../src/installation/build.rst:106
 msgid "Rebuild modified documentation only:"
+msgstr ""
+
+#: ../../src/installation/build.rst:24
+msgid "(optional, for Documentation as PDF) Latex >= [TBD]"
+msgstr ""
+
+#: ../../src/installation/build.rst:26
+msgid ""
+"The cmake system has variables the can be configured via the command line "
+"options by setting them with -D<varable>=<value>. You can get a listing of "
+"these via:"
+msgstr ""
+
+#: ../../src/installation/build.rst:34
+msgid "Currently these are:"
+msgstr ""
+
+#: ../../src/installation/build.rst:36
+msgid ""
+"Boost_DIR:PATH=Boost_DIR-NOTFOUND CMAKE_BUILD_TYPE:STRING= "
+"CMAKE_INSTALL_PREFIX:PATH=/usr/local "
+"POSTGRESQL_EXECUTABLE:FILEPATH=/usr/lib/postgresql/9.2/bin/postgres "
+"POSTGRESQL_PG_CONFIG:FILEPATH=/usr/bin/pg_config WITH_DD:BOOL=ON "
+"WITH_DOC:BOOL=OFF BUILD_HTML:BOOL=ON BUILD_LATEX:BOOL=OFF BUILD_MAN:BOOL=ON"
+msgstr ""
+
+#: ../../src/installation/build.rst:47
+msgid ""
+"These also show the current or default values based on our development "
+"system. So your values my be different. In general the ones that are of most"
+" interest are:"
+msgstr ""
+
+#: ../../src/installation/build.rst:49
+msgid ""
+"WITH_DD:BOOL=ON       -- Turn on/off building driving distance code. "
+"WITH_DOC:BOOL=OFF     -- Turn on/off building the documentation "
+"BUILD_HTML:BOOL=ON    -- If WITH_DOC=ON, turn on/off building HTML "
+"BUILD_LATEX:BOOL=OFF  -- If WITH_DOC=ON, turn on/off building PDF "
+"BUILD_MAN:BOOL=ON     -- If WITH_DOC=ON, turn on/off building MAN pages"
+msgstr ""
+
+#: ../../src/installation/build.rst:55
+msgid ""
+"To change any of these add ``-D<variable>=<value>`` to the cmake lines "
+"below. For example to turn on documentation, your cmake command might look "
+"like:"
+msgstr ""
+
+#: ../../src/installation/build.rst:62
+msgid ""
+"If you turn on the documentation, you also need to add the ``doc`` target to"
+" the make command."
 msgstr ""

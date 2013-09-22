@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,162 +17,162 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/ksp/doc/index.rst:13
-# 69e9fa361c5448f5a046e810e2147cb5
+# dc72571c7ce5498b92c659e3e482c885
 msgid "pgr_ksp - K-Shortest Path"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:20
-# ac195a2554cb493d8534decbef60b1d6
+# 57b24beea69846f58a8cb9b1a7a892b5
 msgid "Name"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:22
-# e53e2f1dbb5545eab094f79f95a340fd
+# b3d0fc92b23443c8b718233c1e16f052
 msgid "``pgr_ksp`` — Returns the \"K\" shortest paths."
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:26
-# 556be67444f14fa79e19d86a28f5dea7
+# 0e60ee2dfa944557a1e9c76106489a7f
 msgid "Synopsis"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:28
-# 3a805b06b9694abfbc711f56d286d554
+# bcf915dc485c4e3b90c9a8ea251b55d1
 msgid "The K shortest path routing algorithm based on Yen's algorithm. \"K\" is the number of shortest paths desired. Returns a set of :ref:`pgr_costResult3 <type_cost_result3>` (seq, id1, id2, id3, cost) rows, that make up a path."
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:37
-# f6a87469251a4ab988db26599f3b6361
+# 46b5ce0d54a64718819888b77b007080
 msgid "Description"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:39
-# 21f48a3d7f4d403299c1fe275ff91add
+# dddbbca8781f41eab4aac1d4e2ecdf32
 msgid "a SQL query, which should return a set of rows with the following columns:"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:46
-# 1e5e89850d36451cba1710d2185d0d32
+# 575d21e3bc994dc3a92a7c6cbb0ed6a2
 msgid "``int4`` identifier of the edge"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:47
-# f5dd2ce67a1f4b7f820d819f6a13c759
+# 589751b9c7d34dac9b4eeb12894fd648
 msgid "``int4`` identifier of the source vertex"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:48
-# b214b7b48ecd4386877d5e9159dfc869
+# 6567c097438040d9b678e88df7521b35
 msgid "``int4`` identifier of the target vertex"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:49
-# 5d19cb31c6fd43268b029ce5ba875510
+# a1e24bd423dd445889b72928d964a5ec
 msgid "``float8`` value, of the edge traversal cost. A negative cost will prevent the edge from being inserted in the graph."
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:50
-# 6e4e5d74e72348f1a64165bf455b79a6
+# ed76ed5e3a504c7aa3a35ea3fa5b4c16
 msgid "(optional) the cost for the reverse traversal of the edge. This is only used when ``has_rcost`` the parameter is ``true`` (see the above remark about negative costs)."
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:52
-# ccd9540a650043b9ae32a4726fa57d0c
+# 588bdec4303b49869b6d1eedd541c198
 msgid "``int4`` id of the start point"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:53
-# 204a43cd6d68431c831c2bea6e13d40f
+# 96b44480fac34f6286b863e6c75d4d8a
 msgid "``int4`` id of the end point"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:54
-# 9b628b790ed745f28bd62d2f9d8cd461
+# 0ffd51df58754f0b89f1b3ad6f75b632
 msgid "``int4`` number of alternative routes"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:55
-# 0c001a1b13d649f7b6bd24b249269453
+# 0fc58370aa30454ea32a2c8b9f3b14a3
 msgid "if ``true``, the ``reverse_cost`` column of the SQL generated set of rows will be used for the cost of the traversal of the edge in the opposite direction."
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:57
-# 6c4fd346ff52478d86a53b25b809fb2f
+# dc8dfcffbd604441a95743930181b042
 msgid "Returns set of :ref:`type_cost_result`:"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:59
-# 4e1ce934d9aa43aeb740ebb3071329a1
+# 611d6bbb82ca4987ae39fd45bb107c2b
 msgid "sequence for ording the results"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:60
-# 77666c022a4c4300b3bd9917f8a2169f
+# b79966a030e04ee3b5e992b5a6858947
 msgid "route ID"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:61
-# c2eb2275d5bf4d0e88a584a83796865d
+# a324539cdc2e4202b416aa19693d1c3f
 msgid "node ID"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:62
-# 2d820108e1c94b7cbfb977e304658ae5
+# 4d87667a7b744eec999819b399fee50c
 msgid "edge ID (``0`` for the last row)"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:63
-# b7a7af0d811c4fa0a899f3a34b904a97
+# baaba3dc621142bd8fc6b8ba32eb2b2e
 msgid "cost to traverse from ``id2`` using ``id3``"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:65
-# 8f255d38fb8d4c96bb6064a610ed3624
+# b585e07096f74b0389f8b7dffc969faa
 msgid "KSP code base taken from http://code.google.com/p/k-shortest-paths/source."
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:69
-# 7820d54db5cf4e5d80f2ad57025778fb
+# 2d033ec25b09426c82d7bc27450b0e13
 msgid "History"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:70
-# e5c9a301ebb74d57b302f321fb72f982
+# 2910d7995ec342b995c857c1e8ea0ac3
 msgid "New in version 2.0.0"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:74
-# 67477c647f6c431499b1e12406176b27
+# 0fb494088fa241d6a4aa5482217c2851
 msgid "Examples"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:76
-# 04925e9c084742278e60190f2fe710fe
+# d3ea07b1c58a42ea9f68558e55eb90a0
 msgid "Without ``reverse_cost``"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:104
-# c8958ab939f140ebaf1a7a904a336a91
+# 7c55b739634c4401b46c4014669d2896
 msgid "With ``reverse_cost``"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:131
-# 8811d0779ff945ee9eea9b779a3d302c
+# 2412b0b4ec044973a1c2304488a73b1a
 msgid "The queries use the :ref:`sampledata` network."
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:135
-# d79f0acebf6c4252bc44cff178266503
+# 14d58e1d3a8f4723bb11ed549594cb26
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:137
-# 25f84cdc1967411cbfeb2ff1837853d9
+# 73cf1bb94518468996cdd3ff6bf897be
 msgid ":ref:`type_cost_result3`"
 msgstr ""
 
 #: ../../../src/ksp/doc/index.rst:138
-# a8640d5f696144439d0d8a6465b047db
+# 3dde120556744d3f9ce7d6e9b9f0c1ee
 msgid "http://en.wikipedia.org/wiki/K_shortest_path_routing"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/common/doc/legacy.rst:13
-# ab53f6ed112b40028cf29f02e08ac1c0
+# 7e98fba52c6f402c811f8c50dd811f39
 msgid "Legacy Functions"
 msgstr ""
 
 #: ../../../src/common/doc/legacy.rst:15
-# 2a30548af2af4b6dba56f41049841f2a
+# 18b051582e6742be8a3737391d4676ad
 msgid "pgRouting 2.0 release has total restructured the function naming and obsoleted many of the functions that were available in the 1.x releases. While we realize that this may inconvenience our existing users, we felt this was needed for the long term viability of the project to be more response to our users and to be able to add new functionality and test existing functionality."
 msgstr ""
 
 #: ../../../src/common/doc/legacy.rst:17
-# debc8f63c843468c8f5d8cf0e2906809
+# cf6d9479ec0b4eb6b0607f3302df5dca
 msgid "We have made a minimal effort to save most of these function and distribute with the release in a file ``pgrouting_legacy.sql`` that is not part of the pgrouting extension and is not supported. If you can use these functions that is great. We have not tested any of these functions so if you find issues and want to post a pull request or a patch to help other users that is fine, but it is likely this file will be removed in a future release and we strongly recommend that you convert your existing code to use the new documented and supported functions."
 msgstr ""
 
 #: ../../../src/common/doc/legacy.rst:19
-# 18b77f9592fb4315802561dbb6ed4cb7
+# 82da52e7fec44c24956e90636a8a9355
 msgid "The follow is a list of TYPEs, CASTs and FUNCTION included in the ``pgrouting_legacy.sql`` file. The list is provide as a convenience but these functions are deprecated, not supported, and probably will need some changes to get them to work."
 msgstr ""
 
 #: ../../../src/common/doc/legacy.rst:23
-# 62932fc754994a9fb51af790378e3b0e
+# 7ae0da52fff04aaaaec8fd9b91d3b7b0
 msgid "TYPEs & CASTs"
 msgstr ""
 
 #: ../../../src/common/doc/legacy.rst:34
-# 98de4d8b009046688e7ce6a1a1dab0d1
+# 8e73926e03514dff813a00fbf7d202e0
 msgid "FUNCTIONs"
 msgstr ""
 

@@ -21,3 +21,32 @@ msgstr ""
 #: ../../src/tutorial/performance.rst:13
 msgid "Performance Tips"
 msgstr ""
+
+#: ../../src/tutorial/performance.rst:16
+msgid ""
+"When \"you know\" that you are going to remove a set of edges from the edges"
+" table, and without those edges you are going to use a routing function you "
+"can do the following:"
+msgstr ""
+
+#: ../../src/tutorial/performance.rst:18
+msgid "Analize the new topology based on the actual topology:"
+msgstr ""
+
+#: ../../src/tutorial/performance.rst:24
+msgid "Or create a new topology if the change is permanent:"
+msgstr ""
+
+#: ../../src/tutorial/performance.rst:31
+msgid "Use an SQL that \"removes\" the edges in the routing function"
+msgstr ""
+
+#: ../../src/tutorial/performance.rst:37
+msgid ""
+"When \"you know\" that the route will not go out of a particular area, to "
+"speed up the process you can use a more complex SQL query like"
+msgstr ""
+
+#: ../../src/tutorial/performance.rst:46
+msgid "Note that the  same condition ``id < 17`` is used in all cases."
+msgstr ""

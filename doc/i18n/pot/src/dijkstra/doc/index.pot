@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,152 +17,152 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/dijkstra/doc/index.rst:13
-# 2b69ba2fe7fc4ffda8c1b8a8d6f3586f
+# a6876a00bcae42fdb134f789dabd19d7
 msgid "pgr_dijkstra - Shortest Path Dijkstra"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:20
-# 7011cb930ecb4c88a3fb939343b1260c
+# 5ba32c2871ea4858b8bfd351b4a01f34
 msgid "Name"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:22
-# aa280c743142496ebf924e391f8b4750
+# eb4931f6253f4daea164710031c062f7
 msgid "``pgr_dijkstra`` — Returns the shortest path using Dijkstra algorithm."
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:26
-# b503d402345a4d3788996ce64f7f2e55
+# aad22c43d6da4f658543ad79e2b4789c
 msgid "Synopsis"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:28
-# 3a376fbb7d8d49deae4bbbf5937e2c08
+# d23c857c49554c10a6c99810575627e1
 msgid "Dijkstra's algorithm, conceived by Dutch computer scientist Edsger Dijkstra in 1956. It is a graph search algorithm that solves the single-source shortest path problem for a graph with non-negative edge path costs, producing a shortest path tree. Returns a set of :ref:`pgr_costResult <type_cost_result>` (seq, id1, id2, cost) rows, that make up a path."
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:37
-# 75415ddc13004b5eb71046f48c77d022
+# 9b3ef7764a8a4aec8be3fd97d0f78855
 msgid "Description"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:39
-# b3f4a7572381429492e779210fa06040
+# 8f12864ae55a48e6a49e9a5c7f232731
 msgid "a SQL query, which should return a set of rows with the following columns:"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:46
-# 65b368cd7cda41b0a1fd54806711d9a6
+# 883dbba5f5b94668af12a1c3d280804f
 msgid "``int4`` identifier of the edge"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:47
-# c0ed57d7c2424d5ea7ffcc2e825b5f23
+# 64eaa5363cc64362829f60de0f81517d
 msgid "``int4`` identifier of the source vertex"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:48
-# 76b5134033a643c28f2a1d90c0420110
+# 849ed774dfa442cf86f3d184c820a717
 msgid "``int4`` identifier of the target vertex"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:49
-# be11fe7d3f0940eeae66cfd57d021566
+# 2c000dd6564240d09f3533f4b2411029
 msgid "``float8`` value, of the edge traversal cost. A negative cost will prevent the edge from being inserted in the graph."
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:50
-# a40d587cba80410686a70af5b3797f34
+# 13bbd212a94840bbbdd82ba008836790
 msgid "``float8`` (optional) the cost for the reverse traversal of the edge. This is only used when the ``directed`` and ``has_rcost`` parameters are ``true`` (see the above remark about negative costs)."
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:52
-# 151f8823edd147f5af2df1f41382fcec
+# 42be1660a80b461ba4e56f070cde4c04
 msgid "``int4`` id of the start point"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:53
-# 5df75aac1b12405fbdceb9052f60dfc0
+# 95547c9e5de74556a208d7c0a9e58772
 msgid "``int4`` id of the end point"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:54
-# 2243111d546c4a7ab61e64d38183b581
+# 89e9934bdbfd42aabf98993066529f92
 msgid "``true`` if the graph is directed"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:55
-# 1c000537d9784741863045e324430b2f
+# 03f039cd5de34a3f99a5871456ed269f
 msgid "if ``true``, the ``reverse_cost`` column of the SQL generated set of rows will be used for the cost of the traversal of the edge in the opposite direction."
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:57
-# 3c543bdf2f614a1088934c0713c15842
+# 2c03ff621dfb4e11a0f215844b6cd41c
 msgid "Returns set of :ref:`type_cost_result`:"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:59
-# b43e8a9b14744150944730c0cabae10e
+# f43f68991432480385556098be3f32ab
 msgid "row sequence"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:60
-# dfc2d8511d694895abf603ee069f1d50
+# b5cd0a7c7e1943e2934f2d315fd0d58d
 msgid "node ID"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:61
-# b7f644bd15ef4223b515eec5a481ef22
+# ae466d86ce304295afc5b1f956c97732
 msgid "edge ID (``-1`` for the last row)"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:62
-# 7f856dbe33f14d1399d936d9fce31909
+# d74ec405ac62479a93ddd9070e1cfead
 msgid "cost to traverse from ``id1`` using ``id2``"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:66
-# 3da2d6dfe029435794e98e24fa8c2876
+# d45859a53252493eaea97bdbe6c8936f
 msgid "History"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:67
-# b02182bf8ba940128b348a54715caa66
+# 41349c9ad4574d009aa7375219beab0c
 msgid "Renamed in version 2.0.0"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:71
-# 4fb277f244a841eb85af16ef380e63ae
+# d1ebc8bc726844eab5795b5dedc18fe0
 msgid "Examples"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:73
-# c8f8a4247e084770aa53d2036dadac64
+# 5ea59cfbc4b240c29bc8268d4a36cdb4
 msgid "Without ``reverse_cost``"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:92
-# 58b29103dcf742fdbc60516d8cbe4e10
+# a37bcf6c164b442ca94ded3b2df83f61
 msgid "With ``reverse_cost``"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:110
-# dab3ff1101c449f696da046b00542173
+# 1013877e3d214e6f8d87c5747e261b20
 msgid "The queries use the :ref:`sampledata` network."
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:114
-# 67e033e5ee3840f6a87615498974b481
+# 7097292ec353427d90c60607583c42c2
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:116
-# 79f15271a8d6453cbf1d3eba52ff6363
+# d98cbcb325484a81bcb0e6b0afd3928c
 msgid ":ref:`type_cost_result`"
 msgstr ""
 
 #: ../../../src/dijkstra/doc/index.rst:117
-# d90206a8a2f8416f8ae9ed419a771dc3
+# cc938bae0828409fb0efae9ad098fa4d
 msgid "http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
 msgstr ""
 

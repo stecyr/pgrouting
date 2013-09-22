@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,67 +17,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../index.rst:13
-# 084f9739729e4c18b6e2f5bfd2f3163c
+# e6915fe5ea9b4cc3bf90e01b2550c439
 msgid "Table of Contents"
 msgstr ""
 
 #: ../../index.rst:15
-# 9bcdacadfb30432e972c055d34109d0f
+# 86f12be1db664d2c93f2a19910b55fd1
 msgid "pgRouting extends the `PostGIS <http://postgis.net>`_/`PostgreSQL <http://postgresql.org>`_ geospatial database to provide geospatial routing and other network analysis functionality."
 msgstr ""
 
 #: ../../index.rst:17
-# 654e3179fc0f49228d2321d7a98ad813
+# 3e9100934325410d8d5c7815d088b99d
 msgid "This is the manual for pgRouting |release|."
 msgstr ""
 
 #: ../../index.rst:23
-# fc3d8ecc7951414ca747c2bdc7bf3c15
+# 2d3f08a232fc4d0daf5934c2c3e2621b
 msgid "The pgRouting Manual is licensed under a `Creative Commons Attribution-Share Alike 3.0 License <http://creativecommons.org/licenses/by-sa/3.0/>`_. Feel free to use this material any way you like, but we ask that you attribute credit to the pgRouting Project and wherever possible, a link back to http://pgrouting.org. For other licenses used in pgRouting see the :ref:`license` page."
 msgstr ""
 
 #: ../../index.rst:27
-# 428ee16934d84372874d5d5f459a2249
+# 24d3fd8ec78c4876ac5db2236c4d08ea
 msgid "General"
 msgstr ""
 
 #: ../../index.rst:40
-# dcd31a76846240848459e4f754f2d549
+# d5d6d86e64dd479ba5ff8b78ca3e905c
 msgid "Tutorial"
 msgstr ""
 
 #: ../../index.rst:48
-# bef87780474f41faa34c6dea92569d3c
+# 2c4294b73dd94588b7464106db6f471a
 msgid "For a more complete introduction how to build a routing application read the `pgRouting Workshop <http://workshop.pgrouting.org>`_."
 msgstr ""
 
 #: ../../index.rst:52
-# 078eb0fca4e84c0baf4cdd988e345cc3
+# 925a3e47315046df8b0e271b43b828ed
 msgid "Data Types"
 msgstr ""
 
 #: ../../index.rst:61
-# 6429a7e408f144c991f41cc906784c45
+# 70b6254eafbd42e296e79996807c5f55
 msgid "Functions reference"
 msgstr ""
 
 #: ../../index.rst:80
-# 78328ab519044ae1a4c90eaa276334ee
+# 3e4d8405e4b2405d848f7475c87fd944
 msgid "Developer"
 msgstr ""
 
 #: ../../index.rst:90
-# c2f023a9b64a4ff699e4e9b21185cccf
+# fb22525275a24af5bccb2cee4af3917b
 msgid "Indices and tables"
 msgstr ""
 
 #: ../../index.rst:91
-# db2e398206354d94a945e7b0387e97c7
+# dabb3456f62f4b02b6d9f55eb9c33ef5
 msgid ":ref:`genindex`"
 msgstr ""
 
 #: ../../index.rst:92
-# 975aca2e29f24d02a1a5ce0c114bb082
+# 370ab39b3624407d80c6808516d9f71c
 msgid ":ref:`search`"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,117 +17,117 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:13
-# 1513754279a04431a1995ef227c3b9cf
+# f6500f30614b461f90b682890f3c3192
 msgid "pgr_isColumnInTable"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:20
-# 7eb1da4573664a4daeafc51641abfa4c
+# 7a4ec9b1b3514801a079916c0000371b
 msgid "Name"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:22
-# a6017f6f307b41259b1a44b32232774c
+# 90dd01a206e24dbf9f73f90924c0615b
 msgid "``pgr_isColumnInTable`` — Check if a column is in the table."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:24
-# 13050ce5426849eda01b53ed23bd2066
+# 0d927909521c4f638c543baff8ebd318
 msgid "This function is intended for the developer’s aid."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:27
-# e5820494a10345b5995019bfeafd9a7b
+# b52fa51d192444e0a61674ede982a3e5
 msgid "Synopsis"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:29
-# 44a3a77c12b544aea50ee2687d37b5c8
+# ea409e6a176b489aa7f326229d178d13
 msgid "Returns ``true`` when the column “col” is in table “tab”."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:37
-# a7fd9f755c684546a23cc80a135c4ef0
+# f5b2b429515a474892b7bddaebd7fa87
 msgid "Description"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:39
-# 26d4132647a546fbadb6d3d7c91ca797
+# a513395f631244f18df21c3b85ea7820
 msgid "``text`` Table name with or without schema component."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:40
-# 72890d0b5a214ad7824db0380bc60df9
+# df577648959b4e0daab9d343543d3501
 msgid "``text`` Column name to be checked for."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:42
-# 2d0b9721803249a8b359c05abdf53eb6
+# faa09fc52bc54a0f9fe811ff099aa562
 msgid "Returns:"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:44
-# bb32a1e366df4672b4c4b883b13409cd
+# 67ed5e9b40764fa1be45f8936680f526
 msgid "``true`` when the column “col” is in table “tab”."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:45
-# d81c4f401ccf4e76800488816339262d
+# fc38c243b9154c03833b5c9acd63804e
 msgid "``false`` when:"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:47
-# d0b6e88040854c7ab7dead946114a3ff
+# fb6952dd480644c78db65cfbc109f967
 msgid "The table \"tab\" is not found or"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:48
-# 8efd5bca04a746d59f0431e159125ddb
+# e701055cfb574ccd800767d4d4555d02
 msgid "Column “col” is not found in table “tab”"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:51
-# 368b6396cf274fdba09570f25b9299ed
+# be793f469b524522a2331a60fb6d7bac
 msgid "History"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:52
-# d0baf75f460d4488893500e037981e21
+# 03a9d21bed654a438312a5a6d45fcf17
 msgid "New in version 2.0.0"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:56
-# aa0d14f25ed94509a270de34bf205b35
+# 1691f75cb0674d2d83b0bebe24105a6d
 msgid "Examples"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:76
-# 40c84eff6619481994a4585d5d696911
+# c8d317a25f554ec6b9af54b1f7ae6c26
 msgid "The example use the :ref:`sampledata` network."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:80
-# 136c114f30bb4202ab02ab5d9d3c6273
+# 24c87607bf1b4b23bb01e403b16e856f
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:82
-# 615e02c5fe034360824bc59d6815f2b8
+# b3efbf8b34fd415bbfc31810cc19b9dc
 msgid ":ref:`developer` for the tree layout of the project."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:83
-# 592b92214c56460e80e0e7c74fd321b0
+# 53d890d3132e4c7d94e0675093e6c146
 msgid ":ref:`pgr_is_column_indexed` to check if the column is indexed."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:84
-# 4b69b0d23dcd4c4896924bd5277840ba
+# 5324fa01310a4c509d7ce91c088865e9
 msgid ":ref:`pgr_get_column_name` to get the name of the column as is stored in the postgres administration tables."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/is_column_in_table.rst:85
-# e5af7dc7ea2f4844bdbd500322c21159
+# d97c057248844396aaa96cacbfcbc034
 msgid ":ref:`pgr_get_table_name` to get the name of the table as is stored in the postgres administration tables."
 msgstr ""
 

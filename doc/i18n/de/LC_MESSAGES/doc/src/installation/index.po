@@ -85,118 +85,126 @@ msgid ""
 "Fedora RPM's: https://admin.fedoraproject.org/pkgdb/acls/name/pgRouting"
 msgstr ""
 
-# 8f056c29f5c042d5b3e3a6fb26632448
-#: ../../src/installation/index.rst:53
-msgid "OSX"
-msgstr ""
-
-# ed8ef1be20f64f4582b6b5ade7f9dab8
-#: ../../src/installation/index.rst:55
-msgid ""
-"See `builds from KingChaos <http://www.kyngchaos.com/software/postgres>`_."
-msgstr ""
-
-# 1a87de6c454844e4be378f1df26c524e
-#: ../../src/installation/index.rst:59
-msgid "Build from Source"
-msgstr ""
-
 # 2d222bc491194fabab4b8e99c2692f59
-#: ../../src/installation/index.rst:62
+#: ../../src/installation/index.rst:65
 msgid "Source Package"
 msgstr ""
 
 # d1443c9ed92746328d680435d8d8818a
-#: ../../src/installation/index.rst:65
+#: ../../src/installation/index.rst:68
 msgid "Git 2.0.0-rc1 release"
 msgstr ""
 
 # 2b974ad9ee254e0aa0b29f2ca8387c9b
-#: ../../src/installation/index.rst:65
+#: ../../src/installation/index.rst:68
 msgid "`v2.0.0-rc1.tar.gz`_"
 msgstr ""
 
 # 6629edb488814621841fc5d654df4268
-#: ../../src/installation/index.rst:65
+#: ../../src/installation/index.rst:68
 msgid "`v2.0.0-rc1.zip`_"
 msgstr ""
 
 # a846a5dc3d9d4b34aa18e6226d2b0051
-#: ../../src/installation/index.rst:66
+#: ../../src/installation/index.rst:69
 msgid "Git 2.0.0-beta release"
 msgstr ""
 
 # 6cc5c0ed1f994c7e9af5c58f2eaf5a53
-#: ../../src/installation/index.rst:66
+#: ../../src/installation/index.rst:69
 msgid "`v2.0.0-beta.tar.gz`_"
 msgstr ""
 
 # faccd199fa2444b89de2e56aad585fff
-#: ../../src/installation/index.rst:66
+#: ../../src/installation/index.rst:69
 msgid "`v2.0.0-beta.zip`_"
 msgstr ""
 
 # 90006b2011c34a2dba6a4a9a331ad85d
-#: ../../src/installation/index.rst:67
+#: ../../src/installation/index.rst:70
 msgid "Git 2.0.0-alpha release"
 msgstr ""
 
 # e1cf3fc6b7a14c00a4cb8f0c9aa79326
-#: ../../src/installation/index.rst:67
+#: ../../src/installation/index.rst:70
 msgid "`v2.0.0-alpha.tar.gz`_"
 msgstr ""
 
 # 5983f427034b4116a8afb3fdf0381714
-#: ../../src/installation/index.rst:67
+#: ../../src/installation/index.rst:70
 msgid "`v2.0.0-alpha.zip`_"
 msgstr ""
 
 # 0df6abc6dedf471f8e19c1c19dfd6d4b
-#: ../../src/installation/index.rst:68
+#: ../../src/installation/index.rst:71
 msgid "Git master branch"
 msgstr ""
 
 # 8b34a03d3ab2472b9d52d9a0cf02f2f8
-#: ../../src/installation/index.rst:68
+#: ../../src/installation/index.rst:71
 msgid "`master.tar.gz`_"
 msgstr ""
 
 # 650cb6bea4c7421c809a7004eb659752
-#: ../../src/installation/index.rst:68
+#: ../../src/installation/index.rst:71
 msgid "`master.zip`_"
 msgstr ""
 
 # 8ef094f785bd4f5798cf97ee067fdc1f
-#: ../../src/installation/index.rst:69
+#: ../../src/installation/index.rst:72
 msgid "Git develop branch"
 msgstr ""
 
 # abe3478ebc7340d3a3b72e90a594893b
-#: ../../src/installation/index.rst:69
+#: ../../src/installation/index.rst:72
 msgid "`develop.tar.gz`_"
 msgstr ""
 
 # 4dfb2f54f804476e9ee2633269cee592
-#: ../../src/installation/index.rst:69
+#: ../../src/installation/index.rst:72
 msgid "`develop.zip`_"
 msgstr ""
 
 # 96bcd0300f4d4b82bac12c6bc618c447
-#: ../../src/installation/index.rst:89
+#: ../../src/installation/index.rst:92
 msgid "Using Git"
 msgstr ""
 
 # 18952685a3b14b359dc6ec26aa24fe9e
-#: ../../src/installation/index.rst:91
+#: ../../src/installation/index.rst:94
 msgid "Git protocol (read-only):"
 msgstr ""
 
-# e8ce5f46743846ed8a1702c07ff568a2
-#: ../../src/installation/index.rst:98
-msgid "HTTPS protocol (read-only):"
-msgstr ""
-
 # 2ea3553b44b045099b3407681b9c893f
-#: ../../src/installation/index.rst:105
+#: ../../src/installation/index.rst:107
 msgid "See :ref:`build` for notes on compiling from source."
 msgstr ""
+
+#: ../../src/installation/index.rst:53
+msgid "OS X"
+msgstr ""
+
+#: ../../src/installation/index.rst:57
+msgid "Homebrew"
+msgstr ""
+
+#: ../../src/installation/index.rst:101
+msgid "HTTPS protocol (read-only): .. code-block:: bash"
+msgstr ""
+
+#: ../../src/installation/index.rst:104
+msgid "git clone https://github.com/pgRouting/pgrouting.git"
+msgstr ""
+
+#~ msgid "OSX"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "See `builds from KingChaos <http://www.kyngchaos.com/software/postgres>`_."
+#~ msgstr ""
+
+#~ msgid "Build from Source"
+#~ msgstr ""
+
+#~ msgid "HTTPS protocol (read-only):"
+#~ msgstr ""

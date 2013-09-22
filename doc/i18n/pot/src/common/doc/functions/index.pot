@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/common/doc/functions/index.rst:13
-# b1455e75dc80458a92bea663db662fa6
+# 70267d2a36294c05b65ffc5c0b7d1706
 msgid "Topology Functions"
 msgstr ""
 
 #: ../../../src/common/doc/functions/index.rst:15
-# 5cba83b62b9f4983a15a023c2a285d47
+# 8b12d5abde4248e59074603defd8c5bf
 msgid "The pgRouting's topology of a network, represented with an edge table with source and target attributes and a vertices table associated with it. Depending on the algorithm, you can create a topology or just reconstruct the vertices table, You can analyze the topology, We also provide a function to node an unoded network."
 msgstr ""
 

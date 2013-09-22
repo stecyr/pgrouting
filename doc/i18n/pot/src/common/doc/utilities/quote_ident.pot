@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,107 +17,107 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:13
-# dacf19e81a104c73bdddf367d7d7d668
+# ad4f702fd7ab40f587534a31a99d703a
 msgid "pgr_quote_ident"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:20
-# 3987eb133e5a4218ab327607ac2feffc
+# a05a481e84424fde848925bc9df67822
 msgid "Name"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:22
-# 31edcd09c0aa472f83ab653a96e6fb19
+# 2c0d5a39de7d48a894991413895eeb1d
 msgid "``pgr_quote_ident`` — Quotes the input text to be used as an identifier in an SQL statement string."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:24
-# 23debc87ecaa4397a9bde8731976416f
+# 81be5b43d83b4f259a8627fdbd918321
 msgid "This function is intended for the developer's aid."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:28
-# 2161a8ae1d4b466895697f7a450a9a57
+# 9a208d9638b343d49e208a250552bf58
 msgid "Synopsis"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:30
-# e6f1d790493a45e7b84634c8d16a393f
+# 20357172c5b74450a1dd908f249e1c22
 msgid "Returns the given identifier ``idname`` suitably quoted to be used as an identifier in an SQL statement string."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:38
-# 62f9f5f1437f4eb8b8f596dc11733aa6
+# ec0d7e517b52424e83e0a39e700f6ded
 msgid "Description"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:41
-# 6493f2ee941f4154a1aba4f082d68449
+# 0333bd56b4d146478a759f9bec187900
 msgid "Parameters"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:42
-# 6e8ff952e68b47f1b79c0c4e28350b19
+# 24fafacf2e084c8ebd35cc820529ddf1
 msgid "``text`` Name of an SQL identifier. Can include ``.`` dot notation for schemas.table identifiers"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:44
-# 0799eb7c979d4d529dee20bf44d3afae
+# 43a32f6d513f42dda64a31f538a7cb0b
 msgid "Returns the given string suitably quoted to be used as an identifier in an SQL statement string."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:46
-# 0e01e8dee8684d6e937f3fbb19ad6ba7
+# d4e0873a14da42f5b4ca3f89505e8335
 msgid "When the identifier ``idname`` contains on or more ``.`` separators, each component is suitably quoted to be used in an SQL string."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:50
-# 76e6ad3e22ab4a7a8b850063649f3215
+# 1842d74622194549bf87e0e37e8220c8
 msgid "History"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:51
-# c0e9f6a5584d4120971b35121e2c8628
+# 3e97c734ccfc46efaedb156bfd028772
 msgid "New in version 2.0.0"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:55
-# 4bed2ca99cd64e1995015f2341393768
+# 4c8ad273e78c414ca99c84a290acff83
 msgid "Examples"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:57
-# 4116fa052c9a4c1eafbabf898b896b1f
+# c27e93edd7144c1986103e042e5b991c
 msgid "Everything is lower case so nothing needs to be quoted."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:76
-# d67245ba95d04dccb41ee045afca7d3a
+# 275c25d761794895a7a9474bd1622943
 msgid "The column is upper case so its double quoted."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:95
-# 7d73ef3c89ac4204b9acca39d7a00245
+# 7fc7d47e83624683a58343f8b5935b6f
 msgid "The schema name has a capital letter so its double quoted."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:106
-# 70ef480aca4f452ea7b5316bdf9d52c0
+# 68aa84ac853546419c541739eee038e6
 msgid "Ignores extra ``.`` separators."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:118
-# d8dabae3a5924821bee8d9fffab3fa99
+# 13976da7e76249c1bbbc10fb34130c59
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:120
-# 49684466779c4616a6c121a94cbc6d6c
+# 9ca53a95db55462780e7fb68bba70aca
 msgid ":ref:`developer` for the tree layout of the project."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/quote_ident.rst:121
-# 2b01294f6a1648dca8ba87f8fd9b8369
+# fb4b95d8a6d8403497a36238ed980b58
 msgid ":ref:`pgr_get_table_name` to get the name of the table as is stored in the postgres administration tables."
 msgstr ""
 

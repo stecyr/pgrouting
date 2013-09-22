@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,94 +17,94 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/common/doc/types/cost_result.rst:13
-# 4551a91ee0ca45ae94283c52ab2ea6f4
+# 575fa6fd8a1842c68aba9825683b178d
 msgid "pgr_costResult[]"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:20
 #: ../../../src/common/doc/types/cost_result.rst:54
-# d093b1312b4145a3ae508fc4089cdb3e
-# 944e9d7b06c34784b42d11dbf26c6aea
+# 3b55f2f3cdc24995bd590e235062c389
+# 1d4bd884218342d6a7ca7ae79998c3a0
 msgid "Name"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:22
-# dd8bd38ace25455291a2ac9b16079e2e
+# 691ba9180a9f4854922720a03e1db3e0
 msgid "``pgr_costResult[]`` — A set of records to describe a path result with cost attribute."
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:26
 #: ../../../src/common/doc/types/cost_result.rst:60
-# 421d8911d26a48e08b0380aadc3dceed
-# 0a914a68a5ef4e7ea756986cd31af903
+# 4bc0f98e83fc482daf119d02f3ab4386
+# b80ec90ac4244e82a1aa8f7e58b78921
 msgid "Description"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:38
 #: ../../../src/common/doc/types/cost_result.rst:73
-# fefc79328b1949e196ade1180e703bb1
-# a90a51cd7f6347f186cab70a08cc40be
+# 023a9b6d62474dbdbb4d587b192099c4
+# 8e1c61381d6f47909ea0830da8a4740c
 msgid "sequential ID indicating the path order"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:39
 #: ../../../src/common/doc/types/cost_result.rst:75
-# 190c76582f2d4b3eb8f4582977743657
-# d48bb60e73cd4894a38ea91b9fb80ad5
+# 98a23fe6530d43418558cdd8be417a26
+# 8c3701ae807d4738b8bbe72260f4c476
 msgid "generic name, to be specified by the function, typically the node id"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:40
 #: ../../../src/common/doc/types/cost_result.rst:76
-# 0ae8fb040c014af6851b913ed835e49e
-# 2e5a3609099c440a8f6e4da576ab0d1b
+# f4abd64c5dea4cda97490766f42a395c
+# 1be5c24bdc684ed1a182e9e2b0ab2343
 msgid "generic name, to be specified by the function, typically the edge id"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:41
 #: ../../../src/common/doc/types/cost_result.rst:77
-# dcb10e3fa5ff46a4bd9806ce988a8bf8
-# cbb9a69bab7b4f348fe5a66725984b13
+# 0b4a362ff97d481cafd2c0328ad1f715
+# 8e11a66126844a1682d4e4c84166794d
 msgid "cost attribute"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:47
-# f5770090c46b4adfbb80dee5d7ef01a8
+# 7e74e200db1b40e1a5231037b2e9b993
 msgid "pgr_costResult3[] - Multiple Path Results with Cost"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:56
-# 72937a7ec3ee4ad38625a9ac2813afd0
+# 307f0248b6c54a71bfc205bb2270b5ce
 msgid "``pgr_costResult3[]`` — A set of records to describe a path result with cost attribute."
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:74
-# fbd8a289078f4e40a760eb1c7d9d79f4
+# 13465c99a9fb49ebab1d1852e6c61aab
 msgid "generic name, to be specified by the function, typically the path id"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:81
-# 11a6348d12eb4071b69ed0b4ec0a4bfe
+# ac46c731c85d4d358a763bc1268ef510
 msgid "History"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:82
-# 07e65f78e8444574ba9faf41c181d383
+# 6bc9329d908f474bbcd380272dae671d
 msgid "New in version 2.0.0"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:83
-# 247afe49b1194c7cb96d9e353164b812
+# 7e5f0c1b76c349ce940c19b2312cc2ec
 msgid "Replaces ``path_result``"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:87
-# cac0dbe154d0446eb152d9c558dc8e49
+# 28df9e1fa19b49f9bb57710715c52fcb
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/common/doc/types/cost_result.rst:89
-# cc6ff638c5714fc7867f7541117376db
+# 21432e8842c1490ba3a7825f4b4e57bb
 msgid ":ref:`introduction`"
 msgstr ""
 

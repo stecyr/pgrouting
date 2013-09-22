@@ -22,20 +22,39 @@ msgstr ""
 msgid "Sample Data"
 msgstr ""
 
-# 7f421eecf5044efd98b200b36124a83c
-#: ../../src/developer/sampledata.rst:15
-msgid ""
-"The documentation provides very simple example queries based on a small "
-"sample network. To be able to execute the sample queries, run the following "
-"SQL commands to create a table with a small network dataset."
-msgstr ""
-
 # 22d8afba7fd34fd6b7bf201ba4e1ba0c
-#: ../../src/developer/sampledata.rst:21
+#: ../../src/developer/sampledata.rst:20
 msgid "Create table"
 msgstr ""
 
 # 39ea0437205c4eaca6eb612e61a74795
-#: ../../src/developer/sampledata.rst:50
+#: ../../src/developer/sampledata.rst:40
 msgid "Insert network data"
 msgstr ""
+
+#: ../../src/developer/sampledata.rst:15
+msgid ""
+"The documentation provides very simple example queries based on a small "
+"sample network. To be able to execute the sample queries, run the following "
+"SQL commands to create a table with a small network data set."
+msgstr ""
+
+#: ../../src/developer/sampledata.rst:70
+msgid ""
+"Before you test a routing function use this query to fill the source and "
+"target columns."
+msgstr ""
+
+#: ../../src/developer/sampledata.rst:77
+msgid "This table is used in some of our examples"
+msgstr ""
+
+#: ../../src/developer/sampledata.rst:94
+msgid "The network created in *edge_table*"
+msgstr ""
+
+#~ msgid ""
+#~ "The documentation provides very simple example queries based on a small "
+#~ "sample network. To be able to execute the sample queries, run the following "
+#~ "SQL commands to create a table with a small network dataset."
+#~ msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,74 +17,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/common/doc/utilities/start_point.rst:13
-# bcf16dba7e764aa0a30bc0f643efecde
+# a24de4d0526742168dd2c7673d357cfe
 msgid "pgr_startPoint"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:20
-# 69077f2bc8cb444eb24f01771ccb2f6c
+# 2878d80121d3453794e0871f34873592
 msgid "Name"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:22
-# 006b4249ebe54feaa3b967d9ce64409b
+# ef267d5bd4dc444b9db70d9f4079f505
 msgid "``pgr_startPoint`` — Returns a start point of a (multi)linestring geometry."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:24
-# b6341e758e7a4fc985fca886b68defd9
+# 57c55f6c23fd4dc59ad7f25a4a4e6f90
 msgid "This function is intended for the developer's aid."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:28
-# 9ddfdae386214cb181257803d35b23db
+# 7fb8df5ab251417bba38529aaefd457b
 msgid "Synopsis"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:30
 #: ../../../src/common/doc/utilities/start_point.rst:44
-# 41ff64b6f9af42aa9957abe5b6c66b88
-# a119e23c821d487688cdef2d1f1ebe76
+# 7becd53f47734fbe99a71ba8adef0d07
+# 9345f683e56b40dcb259f1ef2ea5e240
 msgid "Returns the geometry of the start point of the first LINESTRING of ``geom``."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:38
-# 919d35b5677c40ba82080b9c6b0b6b99
+# f2295bc1e9ef4b08884c65ec18de9744
 msgid "Description"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:41
-# a31c2b9742484136ba41d3826431ab29
+# fef77a15910b4557bb253c868468c67a
 msgid "Parameters"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:42
-# 74f2cb3ee5b14fd68773bd1475aca6cf
+# c938ded08b8743bf9eac1b5d064e0ed0
 msgid "``geometry`` Geometry of a MULTILINESTRING or LINESTRING."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:49
-# e0e4d54593b94a4eaecfc8ca3cc73225
+# 364eba92da1046889b073b64c9827bdf
 msgid "History"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:50
-# 12292f2693674e83b50ca5ae9bf949c5
+# 62c8d013ab68473c8adda6fbfaf564e9
 msgid "New in version 2.0.0"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:55
-# b32f07c728874b68b413ebc3a88d40a3
+# 8e8a05a8da734bb5961b296230e53bcb
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:57
-# b632dfa0e2184000bd11b7818f6a7884
+# 6026c7e6914a49cab16a616dd0fb6bac
 msgid ":ref:`developer` for the tree layout of the project."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/start_point.rst:58
-# 79f4d2de2af94c948f1c65edeeea30c6
+# 5b0650667c4b470691f4647d5b73f783
 msgid ":ref:`pgr_end_Point` to get the end point of a (multi)linestring."
 msgstr ""
 

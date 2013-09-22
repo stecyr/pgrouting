@@ -39,14 +39,6 @@ msgstr ""
 msgid "cmake scripts used as part of our build system."
 msgstr ""
 
-# 1f0669f1dce543df8ec72ab64c0a3435
-#: ../../src/developer/index.rst:26
-msgid ""
-"This is the algorithm source tree. Each alogorithm should be contained in "
-"its on sub-tree with doc, sql, src, and test sub-directories. This might get"
-" renamed to \"algorithms\" at some point."
-msgstr ""
-
 # d510542616954ff48b4208874a211b08
 #: ../../src/developer/index.rst:31
 msgid ""
@@ -243,3 +235,60 @@ msgstr ""
 #: ../../src/developer/index.rst:141
 msgid "Then if there is a difference then an test failure is reported."
 msgstr ""
+
+#: ../../src/developer/index.rst:23
+msgid "cmake/"
+msgstr ""
+
+#: ../../src/developer/index.rst:28
+msgid "core/"
+msgstr ""
+
+#: ../../src/developer/index.rst:26
+msgid ""
+"This is the algorithm source tree. Each algorithm should be contained in its"
+" on sub-tree with doc, sql, src, and test sub-directories. This might get "
+"renamed to \"algorithms\" at some point."
+msgstr ""
+
+#: ../../src/developer/index.rst:33
+msgid "core/astar/"
+msgstr ""
+
+#: ../../src/developer/index.rst:39
+msgid "core/common/"
+msgstr ""
+
+#: ../../src/developer/index.rst:43
+msgid "core/dijkstra/"
+msgstr ""
+
+#: ../../src/developer/index.rst:49
+msgid "core/driving_distance/"
+msgstr ""
+
+#: ../../src/developer/index.rst:56
+msgid "core/shooting_star/"
+msgstr ""
+
+#: ../../src/developer/index.rst:62
+msgid "core/trsp/"
+msgstr ""
+
+#: ../../src/developer/index.rst:67
+msgid "core/tsp/"
+msgstr ""
+
+#: ../../src/developer/index.rst:70
+msgid "tools/"
+msgstr ""
+
+#: ../../src/developer/index.rst:75
+msgid "lib/"
+msgstr ""
+
+#~ msgid ""
+#~ "This is the algorithm source tree. Each alogorithm should be contained in "
+#~ "its on sub-tree with doc, sql, src, and test sub-directories. This might get"
+#~ " renamed to \"algorithms\" at some point."
+#~ msgstr ""

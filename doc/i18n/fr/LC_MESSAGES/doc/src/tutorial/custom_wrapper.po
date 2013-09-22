@@ -18,7 +18,47 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-# eabd47deb6034d1c95a09b9014e26c69
 #: ../../src/tutorial/custom_wrapper.rst:13
-msgid "Custom Wrapper"
-msgstr "Wrapper personnalisé"
+msgid "User's wrapper contributions"
+msgstr ""
+
+#: ../../src/tutorial/custom_wrapper.rst:16
+msgid "How to contribute."
+msgstr ""
+
+#: ../../src/tutorial/custom_wrapper.rst:17
+msgid ""
+"Use an issue tracker (see :ref:`support`) with a title containing: "
+"*Proposing a wrapper: Mywrappername*. The body will contain:"
+msgstr ""
+
+#: ../../src/tutorial/custom_wrapper.rst:19
+msgid "author:  Required"
+msgstr ""
+
+#: ../../src/tutorial/custom_wrapper.rst:20
+msgid ""
+"mail: if you are subscribed to the developers list this is not necessary"
+msgstr ""
+
+#: ../../src/tutorial/custom_wrapper.rst:21
+msgid "date: Date posted"
+msgstr ""
+
+#: ../../src/tutorial/custom_wrapper.rst:22
+msgid "comments and code:  using reStructuredText format"
+msgstr ""
+
+#: ../../src/tutorial/custom_wrapper.rst:24
+msgid ""
+"Any contact with the author will be done using the developers mailing list. "
+"The pgRouting team will evaluate the wrapper and will be included it in this"
+" section when approved."
+msgstr ""
+
+#: ../../src/tutorial/custom_wrapper.rst:27
+msgid "*No contributions at this time*"
+msgstr ""
+
+#~ msgid "Custom Wrapper"
+#~ msgstr "Wrapper personnalisé"

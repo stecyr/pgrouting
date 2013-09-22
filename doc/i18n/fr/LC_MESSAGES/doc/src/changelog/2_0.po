@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) pgRouting Contributors - Version 2.0.0-dev (129919f develop)
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
 # This file is distributed under the same license as the pgRouting package.
 # 
 # Translators:
@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:47\n"
-"PO-Revision-Date: 2013-08-29 03:20+0000\n"
-"Last-Translator: erikap\n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
+"PO-Revision-Date: 2013-09-20 14:12+0000\n"
+"Last-Translator: Daniel Kastl\n"
 "Language-Team: French (http://www.transifex.com/projects/p/pgrouting/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-# c1b1516c8da846a195824e5281582281
+# 41d209212e664613be63b0c4eb47db29
 #: ../../src/changelog/2_0.rst:13
 msgid "pgRouting 2.0 Release Notes"
 msgstr "Notes de version pgRouting 2.0"
 
-# 3e67d45a281c48bd9d6eea1ce58d38c3
+# c238c9447a7f4851a9a480e52b5a0d6d
 #: ../../src/changelog/2_0.rst:15
 msgid ""
 "With the release of pgRouting 2.0 the library has abandoned backwards "
@@ -35,7 +35,7 @@ msgid ""
 "for multiple developers to make contribution."
 msgstr "Avec la version de pgRouting 2.0 la librairie a abandonné la compatibilité restrospective aux versions :ref:`pgRouting 1.x <changelog_1_x>`. Nous avons fait ça pour que nous puissions restructurer pgRouting, standardiser le nommage de fonction, et préparer le projet pour un développement future. Comme un résultat de cet effort, nous avons été capable de simplifier pgRouting, ajouter de façon significative de nouvelles fonctionnalités, intégrer de la documentation et tester dans l'arbre source et rendre plus facile pour les multiples développeurs de contribuer."
 
-# b7dbd742ac1c45cea48afc0b61bf3a35
+# eaadca8ff4124aca86e56700e70d6ea0
 #: ../../src/changelog/2_0.rst:17
 msgid ""
 "For important changes see the following release notes. To see the full list "
@@ -43,123 +43,129 @@ msgid ""
 "<https://github.com/pgRouting/pgrouting/commits>`_ on Github."
 msgstr "Pour les changements importants voir les notes de versions suivantes. Pour voir la liste complète des changements, vérifiez la liste de `Git commits <https://github.com/pgRouting/pgrouting/commits>` sur Github."
 
-# f0cd146d674e46449ba99a8100934ec0
+# c53e4dbf153d4ee280b6640240efc281
 #: ../../src/changelog/2_0.rst:28
 msgid "Changes for 2.0.0"
 msgstr "Changements pour la version 2.0.0"
 
-# ef9ef27b926145108086d936b6ca0b28
+# b8d2537f0c6d49db85adf78713af71e2
 #: ../../src/changelog/2_0.rst:30
 msgid ""
 "Graph Analytics - tools for detecting and fixing connection some problems in"
 " a graph"
 msgstr "Graph Analytics - outils pour la détection et la résolution certains problèmes de connexion dans un graphe."
 
-# 42f88056af7e4432b32f065a7a24a919
+# 630257e6ecbd40ca81e4469c6fc62e68
 #: ../../src/changelog/2_0.rst:31
 msgid "A collection of useful utility functions"
 msgstr "Une collection de fonctions utiles."
 
-# 2f534c34e0974efe890889f3b21a0b4d
+# 77be08d34459480a8b531a35f1e5149e
 #: ../../src/changelog/2_0.rst:32
 msgid ""
 "Two new All Pairs Short Path algorithms (pgr_apspJohnson, pgr_apspWarshall)"
 msgstr "Deux nouveaux algorithmes de plus court chemin toutes paires (pgr_apspJohnson, pgr_apspWarshall)"
 
-# 8ce3dd738c2d4dc4b31299c1a0914faf
+# 367a7bfe0d0a49feaf4590f857720e15
 #: ../../src/changelog/2_0.rst:33
 msgid ""
 "Bi-directional Dijkstra and A-star search algorithms (pgr_bdAstar, "
 "pgr_bdDijkstra)"
 msgstr "Algorithmes de recherches bidirectionnels Dijkstra et A-star (pgr_bdAstar, pgr_bdDijkstra)"
 
-# 8f43c2d6075f49e79bbaa6f8aabab4da
+# eac6fb4f3f314a2495e935a05927f498
 #: ../../src/changelog/2_0.rst:34
 msgid "One to many nodes search (pgr_kDijkstra)"
 msgstr "Recherche à nœuds un à plusieurs (pgr_kDijkstra)"
 
-# c4b5876cdfd748b0b212c0934c824f64
+# 5b4426ee0e78499685716b714b11c183
 #: ../../src/changelog/2_0.rst:35
 msgid "K alternate paths shortest path (pgr_ksp)"
 msgstr "Plus court chemin K chemins alternatifs (pgr_ksp)"
 
-# acd1a044738b4276a2e8e94a0dd76534
+# 2649a404090b4b4592eb6d90e19a0b54
 #: ../../src/changelog/2_0.rst:36
 msgid ""
 "New TSP solver that simplifies the code and the build process (pgr_tsp), "
 "dropped \"Gaul Library\" dependency"
 msgstr "Nouveau solveur TSP qui simplifie le code et le processus de build (pgr_tsp), supprimé la dépendance \"Gaul Library\" "
 
-# 8f926050f9324e25900b05fed56a589e
+# 5e905114f23f443aa80b0b33b3592ecb
 #: ../../src/changelog/2_0.rst:37
 msgid "Turn Restricted shortest path (pgr_trsp) that replaces Shooting Star"
 msgstr "Le plus court chemin à virage restreint (pgr_trsp) qui remplace Shooting Star"
 
-# d1e83f5c735b4bfcba1d268ea2935a7f
+# 5c67f0b9b3324fa894b2611a0f820c35
 #: ../../src/changelog/2_0.rst:38
 msgid "Dropped support for Shooting Star"
 msgstr "Support supprimé pour Shooting Star"
 
-# ca6f7155ffb1427ba1c145efd90b72e3
+# 2e64f9cd54ee410c9d3a998c19bdb1c4
 #: ../../src/changelog/2_0.rst:39
 msgid ""
 "Built a test infrastructure that is run before major code changes are "
 "checked in"
 msgstr "Construit une infrastructure de test qui est exécutée avant que des changements de code majeurs soient enregistrés."
 
-# 3d47be6570aa47e3b48a446cfd55c3f8
+# 3e0d4966b2644f519b851a97b0d0769b
 #: ../../src/changelog/2_0.rst:40
 msgid ""
 "Tested and fixed most all of the outstanding bugs reported against 1.x that "
 "existing in the 2.0-dev code base."
 msgstr "Testé et résolu la plupart des bugs non résolus rapportés sur la 1.x et existant dans la base de code 2.0-dev."
 
-# f99da159237841a583466e7bdaa5a964
+# 750e9d121e9848e7a3f53799c6cfc052
 #: ../../src/changelog/2_0.rst:41
 msgid "Improved build process for Windows"
 msgstr "Processus de build amélioré pour Windows"
 
-# eaef81c47c28441d9c6d9c55785f6664
+# 5a8032dbaa6e41b4a2d22e96b1246061
 #: ../../src/changelog/2_0.rst:42
+msgid ""
+"Automated testing on Linux and Windows platforms trigger by every commit"
+msgstr ""
+
+# f4e6290e53494b1a8556559aa0b5d0c4
+#: ../../src/changelog/2_0.rst:43
 msgid "Modular library design"
 msgstr "Conception en librairie modulaire"
 
-# 5b1f3d44b55d4502b2761acd0aed5b08
-#: ../../src/changelog/2_0.rst:43
+# 20d9b62def1146779943b304221210e1
+#: ../../src/changelog/2_0.rst:44
 msgid "Compatibility with PostgreSQL 9.1 or newer"
 msgstr "Compatibilité avec PostgreSQL 9.1 ou plus récent"
 
-# 592cb52588884e7e88488112e5001c71
-#: ../../src/changelog/2_0.rst:44
+# 50ecc618a48f4a40bfa9619814c40668
+#: ../../src/changelog/2_0.rst:45
 msgid "Compatibility with PostGIS 2.0 or newer"
 msgstr "Compatibilité avec PostGIS 2.0 ou plus récent"
 
-# 6f72789ca5ae4828bbe00dd0b44ed049
-#: ../../src/changelog/2_0.rst:45
+# 9bba7be729ba4bf8bf2f3f93601a9eed
+#: ../../src/changelog/2_0.rst:46
 msgid "Installs as PostgreSQL EXTENSION"
 msgstr "Installe comme une EXTENSION PostgreSQL"
 
-# 7f85fdaaa5374934b83c0baef45e2074
-#: ../../src/changelog/2_0.rst:46
+# 2ea9562de6e84e498380ef5a80727706
+#: ../../src/changelog/2_0.rst:47
 msgid "Return types refactored and unified"
 msgstr "Retourne les types remaniés et unifiés "
 
-# 60c67a38e1594c7cb774d5b29c284a17
-#: ../../src/changelog/2_0.rst:47
+# e378c4fe098949dfb6cf11a8ba9cd0f5
+#: ../../src/changelog/2_0.rst:48
 msgid "Support for table SCHEMA in function parameters"
 msgstr "Support pour la table SCHEMA dans les paramètres de fonction"
 
-# da8aea5a0d034dce84e5a2bfd3e2b342
-#: ../../src/changelog/2_0.rst:48
+# 9197f516218e4921adfa2720bec2ab75
+#: ../../src/changelog/2_0.rst:49
 msgid "Support for ``st_`` PostGIS function prefix"
 msgstr "Support pour préfixe de fonction ``st_`` PostGIS"
 
-# c204bde79a394b93a1a3c46bbedab1a0
-#: ../../src/changelog/2_0.rst:49
+# 4382ce903cb54380acc0e7633c5624d7
+#: ../../src/changelog/2_0.rst:50
 msgid "Added ``pgr_`` prefix to functions and types"
 msgstr "Ajouté préfixe ``pgr_`` aux fonctions et types"
 
-# d7df479e712e4c3689e121a22f45f909
-#: ../../src/changelog/2_0.rst:50
+# f4bc9ccd15bd4b798160213720b6c3cf
+#: ../../src/changelog/2_0.rst:51
 msgid "Better documentation: http://docs.pgrouting.org"
 msgstr "Meilleure documentation: http://docs.pgrouting.org"

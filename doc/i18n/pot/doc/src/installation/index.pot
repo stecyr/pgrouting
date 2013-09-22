@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,177 +17,177 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/installation/index.rst:13
-# 2ef02d6b65454c9c810a186e24da2d15
+# b41e3e6e82bc4cc1ae494ad03a5e3db0
 msgid "Installation"
 msgstr ""
 
 #: ../../src/installation/index.rst:15
-# 6c792d09a54741b7abc4f8b85c230e33
+# c8a69d5d6c9242ad82bf2995a2d43c40
 msgid "Binary packages are provided for the current version on the following platforms:"
 msgstr ""
 
 #: ../../src/installation/index.rst:19
-# 9d421cae248942b39741ffddf5b7b6eb
+# 724bcb2a14ac419f99c2f7d5cfe22b6d
 msgid "Windows"
 msgstr ""
 
 #: ../../src/installation/index.rst:21
-# 6ef6ffbacf0a42f8b4de9588e962c452
+# b683dadc50114de7a4bd0073be4510cf
 msgid "Winnie Bot Experimental Builds:"
 msgstr ""
 
 #: ../../src/installation/index.rst:23
-# a44e179f420146cea1451509331fa379
+# 006e74f1eaf042779773f59248230fcb
 msgid "`PostgreSQL 9.2 32-bit, 64-bit <http://winnie.postgis.net/download/windows/pg92/buildbot/>`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:27
-# eef06321cc434930b84d38fa91d68654
+# 7825f3f82e3e426188a552cac3d76d0c
 msgid "Ubuntu/Debian"
 msgstr ""
 
 #: ../../src/installation/index.rst:29
-# 5ced6caebd944b46856d977d4074b3c8
+# 5d5652a1d3a04382800239684a4d26cc
 msgid "Ubuntu packages are available in Launchpad repositories:"
 msgstr ""
 
 #: ../../src/installation/index.rst:31
-# 6bcbaca1276a4f2991273540e25eac29
+# 761afc4473ab4a35aff506637c8e80aa
 msgid "*stable* https://launchpad.net/~georepublic/+archive/pgrouting"
 msgstr ""
 
 #: ../../src/installation/index.rst:32
-# a226febc117343e3a307bc629604fadb
+# 6500186f8e3d42c88983fa564fc4facf
 msgid "*unstable* https://launchpad.net/~georepublic/+archive/pgrouting-unstable"
 msgstr ""
 
 #: ../../src/installation/index.rst:43
-# e0ab8d70a2074aceba4b4f0f377936a2
+# 7050e2f75f7b42fea67597e63cf2f111
 msgid "Use `UbuntuGIS-unstable PPA <https://launchpad.net/~ubuntugis/+archive/ubuntugis-unstable>`_ to install PostGIS 2.0."
 msgstr ""
 
 #: ../../src/installation/index.rst:47
-# 89331ced679444a8a0a3e9f8e1802a37
+# ce72f9b5cb814c5fb4a4ec48c0f7a294
 msgid "RHEL/CentOS/Fedora"
 msgstr ""
 
 #: ../../src/installation/index.rst:49
-# 4535fbe79fa645868eb03b8cadccd0a0
+# 06c08177883146369e10318b54f2662a
 msgid "Fedora RPM's: https://admin.fedoraproject.org/pkgdb/acls/name/pgRouting"
 msgstr ""
 
 #: ../../src/installation/index.rst:53
-# 90eb4b707b4943ec9b93c333b552d632
+# b6146b0917b441268525a1fe54b0f17e
 msgid "OS X"
 msgstr ""
 
 #: ../../src/installation/index.rst:57
-# 1e10ba2543504132add992b3262b469d
+# cdc507aa586e4ac8b00a7d5818bde423
 msgid "Homebrew"
 msgstr ""
 
 #: ../../src/installation/index.rst:65
-# 81397a578b6e4c1db207c271c7408fbd
+# e949ab234590487ca8c4cfa47be11908
 msgid "Source Package"
 msgstr ""
 
 #: ../../src/installation/index.rst:68
-# ab1d6c06b97f4e65833047e0b6a9b12a
+# ec1db5ae27a4451fae0ee5b486baa0db
 msgid "Git 2.0.0-rc1 release"
 msgstr ""
 
 #: ../../src/installation/index.rst:68
-# 9d48184e30724585941b1adf421d321e
+# 8f33d62c1dda4436a3c0a75489dec129
 msgid "`v2.0.0-rc1.tar.gz`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:68
-# ed00354ce5e1467ba94332015d61c13a
+# 4eb23002a0464e94a6e62cdef2c72234
 msgid "`v2.0.0-rc1.zip`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:69
-# a6436d284e4544f7b16d365853928b36
+# b5a17e917a89472c955c6f2cfdfff517
 msgid "Git 2.0.0-beta release"
 msgstr ""
 
 #: ../../src/installation/index.rst:69
-# d8c0787d97d548358f5b8f2cdc6c995d
+# 3db241a58e4c4d6f868116a6770030b5
 msgid "`v2.0.0-beta.tar.gz`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:69
-# 82ac6e7b05f344579b17a3548a868bdf
+# 1e21c08cc7c84816b3ca5cc813d1470d
 msgid "`v2.0.0-beta.zip`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:70
-# b944aa5a41e54d5a930c712347455e64
+# 2286b25add114b9e82622ff02d730a8e
 msgid "Git 2.0.0-alpha release"
 msgstr ""
 
 #: ../../src/installation/index.rst:70
-# 86b4abe6962f45579283b6e8d1570d7d
+# 3db12a14f5b94a0eae1772d2f84c9058
 msgid "`v2.0.0-alpha.tar.gz`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:70
-# 66c624bcd7dc43a98c1a9cd1a1488b16
+# 9ecc4cba22564943855591c0079db428
 msgid "`v2.0.0-alpha.zip`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:71
-# 08e11725449548fc811aed4cee0c1cff
+# 708d8ebb02c2479c86755b38333b9e3d
 msgid "Git master branch"
 msgstr ""
 
 #: ../../src/installation/index.rst:71
-# 611fe15cb4f9420888737dfd9f53bb7c
+# 07931d9e017b4fc7aabc4ca1affa9ec4
 msgid "`master.tar.gz`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:71
-# 3cd7dd4f352346cf901b52b7eb1a1127
+# 8ed2f03dcd4b4be1bfee86da4d9bcdc9
 msgid "`master.zip`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:72
-# d368a63955604c0081a2fe89422e4aba
+# bded77386d4a4124b17d0ee2903d5877
 msgid "Git develop branch"
 msgstr ""
 
 #: ../../src/installation/index.rst:72
-# 9d49883c0fd84dc2a0864eafe74b6dc1
+# 9da6c796cd3045c28c04775b7c49e27c
 msgid "`develop.tar.gz`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:72
-# a4a31cfc47014d2faa6a6dbdc0ed98d0
+# 1671db28e6df4d6094c2fb0a5afe4106
 msgid "`develop.zip`_"
 msgstr ""
 
 #: ../../src/installation/index.rst:92
-# 9f2c6efa06a946189d93cd6c8b229a19
+# 5a32f08a903c487092dbfb1eae278d84
 msgid "Using Git"
 msgstr ""
 
 #: ../../src/installation/index.rst:94
-# 0f80e9055c194e8781152a2ce5713abd
+# f1630712900a49db825c618380b4a713
 msgid "Git protocol (read-only):"
 msgstr ""
 
 #: ../../src/installation/index.rst:101
-# 995a4fc3859043b2b7a68111ed74aa69
+# 9c36f0b296a343ea9c7103d514b6af07
 msgid "HTTPS protocol (read-only): .. code-block:: bash"
 msgstr ""
 
 #: ../../src/installation/index.rst:104
-# 7ce857e8100d45e4b45c6664bf555126
+# 79827ebd49da4add88e7275c6abc8a5d
 msgid "git clone https://github.com/pgRouting/pgrouting.git"
 msgstr ""
 
 #: ../../src/installation/index.rst:107
-# cf38f7d1267b4f75be670f5b61d6f9b2
+# 00af13df90844038a100e3ed84ea8572
 msgid "See :ref:`build` for notes on compiling from source."
 msgstr ""
 

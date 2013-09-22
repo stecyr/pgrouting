@@ -82,39 +82,39 @@ msgid ""
 msgstr ""
 
 # b5fd7543c8b54f34b556a133fb638174
-#: ../../src/introduction/support.rst:31
+#: ../../src/introduction/support.rst:39
 msgid "Mailing List and GIS StackExchange"
 msgstr ""
 
 # 2867bdf7c4d8450b86de7702b26e37ab
-#: ../../src/introduction/support.rst:33
+#: ../../src/introduction/support.rst:41
 msgid ""
 "There are two mailing lists for pgRouting hosted on OSGeo mailing list "
 "server:"
 msgstr ""
 
 # 36b218682a5b495386d69caea89554a0
-#: ../../src/introduction/support.rst:35
+#: ../../src/introduction/support.rst:43
 msgid ""
 "User mailing list: http://lists.osgeo.org/mailman/listinfo/pgrouting-users"
 msgstr ""
 
 # af2dbf4b5c35487cbbf47c409093d3c3
-#: ../../src/introduction/support.rst:36
+#: ../../src/introduction/support.rst:44
 msgid ""
 "Developer mailing list: http://lists.osgeo.org/mailman/listinfo/pgrouting-"
 "dev"
 msgstr ""
 
 # 37947883c7b74e47bfa51cdac68b080a
-#: ../../src/introduction/support.rst:38
+#: ../../src/introduction/support.rst:46
 msgid ""
 "For general questions and topics about how to use pgRouting, please write to"
 " the user mailing list."
 msgstr ""
 
 # 7e3dfcc3a31a4ba3bc41f6c7d5a3c19b
-#: ../../src/introduction/support.rst:40
+#: ../../src/introduction/support.rst:48
 msgid ""
 "You can also ask at `GIS StackExchange <http://gis.stackexchange.com/>`_ and"
 " tag the question with ``pgrouting``. Find all questions tagged with "
@@ -124,12 +124,12 @@ msgid ""
 msgstr ""
 
 # 18af2d65168042edac691be50d758d38
-#: ../../src/introduction/support.rst:46
+#: ../../src/introduction/support.rst:54
 msgid "Commercial Support"
 msgstr ""
 
 # 01737e94c36042388ff00a08c37c5837
-#: ../../src/introduction/support.rst:48
+#: ../../src/introduction/support.rst:56
 msgid ""
 "For users who require professional support, development and consulting "
 "services, consider contacting any of the following organizations, which have"
@@ -137,76 +137,82 @@ msgid ""
 msgstr ""
 
 # 698641cbd88f432f9273710e46df58c5
-#: ../../src/introduction/support.rst:53
+#: ../../src/introduction/support.rst:61
 msgid "**Company**"
 msgstr ""
 
 # 0ab2194260424eb395df6be8d03f0611
-#: ../../src/introduction/support.rst:54
+#: ../../src/introduction/support.rst:62
 msgid "**Offices in**"
 msgstr ""
 
 # e3c7d214f6aa4fc5bc8e54c16bd586b3
-#: ../../src/introduction/support.rst:55
+#: ../../src/introduction/support.rst:63
 msgid "**Website**"
 msgstr ""
 
 # 6342d8daef894a66b042852b7aed0be3
-#: ../../src/introduction/support.rst:56
+#: ../../src/introduction/support.rst:64
 msgid "Georepublic"
 msgstr ""
 
 # 4cff0cbdf09142fe96cedf784e527f88
-#: ../../src/introduction/support.rst:57
+#: ../../src/introduction/support.rst:65
 msgid "Germany, Japan"
 msgstr ""
 
 # d21fbd0b66dd460782765e0899cda198
-#: ../../src/introduction/support.rst:58
+#: ../../src/introduction/support.rst:66
 msgid "http://georepublic.info"
 msgstr ""
 
 # 4709209a400848fbb145d3e9bbd8289b
-#: ../../src/introduction/support.rst:59
+#: ../../src/introduction/support.rst:67
 msgid "iMaptools"
 msgstr ""
 
 # 9c4e2cec8d6e49b9b1d395ef568e7bf4
-#: ../../src/introduction/support.rst:60
+#: ../../src/introduction/support.rst:68
 msgid "United States"
 msgstr ""
 
 # f139763c29294bb79ebd32b4794edfcb
-#: ../../src/introduction/support.rst:61
+#: ../../src/introduction/support.rst:69
 msgid "http://imaptools.com"
 msgstr ""
 
 # bc88272585b7418e87f8aa1e03fd54a5
-#: ../../src/introduction/support.rst:62
+#: ../../src/introduction/support.rst:70
 msgid "Orkney Inc."
 msgstr ""
 
 # 84daebce6fc94b6e953b97d39cdf8c25
-#: ../../src/introduction/support.rst:63
+#: ../../src/introduction/support.rst:71
 msgid "Japan"
 msgstr ""
 
 # 624d95640fbb41c3b1e2c8be2ac6643f
-#: ../../src/introduction/support.rst:64
+#: ../../src/introduction/support.rst:72
 msgid "http://www.orkney.co.jp"
 msgstr ""
 
 # dfe08a11bfac41ccb2e0c58cb1e0147c
-#: ../../src/introduction/support.rst:65
+#: ../../src/introduction/support.rst:73
 msgid "Camptocamp"
 msgstr ""
 
 # 6de446c9b4aa48b7bdf619923546c10d
-#: ../../src/introduction/support.rst:66
+#: ../../src/introduction/support.rst:74
 msgid "Switzerland, France"
 msgstr ""
 
 # c15be03a07254055b4b18b07c808943c
-#: ../../src/introduction/support.rst:67
+#: ../../src/introduction/support.rst:75
 msgid "http://www.camptocamp.com"
+msgstr ""
+
+#: ../../src/introduction/support.rst:28
+msgid ""
+"It is recommended to use the following wrapper on the problem to pin point "
+"the step that is causing the problem."
 msgstr ""

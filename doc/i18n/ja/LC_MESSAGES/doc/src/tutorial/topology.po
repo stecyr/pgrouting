@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) pgRouting Contributors - Version 2.0.0-dev (129919f develop)
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
 # This file is distributed under the same license as the pgRouting package.
 # 
 # Translators:
@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:47\n"
-"PO-Revision-Date: 2013-08-06 19:50+0000\n"
-"Last-Translator: cvvergara\n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
+"PO-Revision-Date: 2013-09-20 14:12+0000\n"
+"Last-Translator: Daniel Kastl\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/pgrouting/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,32 +18,32 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-# 2e965f30c7e0495fa8a53b1be5150746
+# 288663f2be9546b4870655f15325a7a1
 #: ../../src/tutorial/topology.rst:13
 msgid "Routing Topology"
 msgstr ""
 
-# 5400cbce8e09474fa5add24d4dc5b466
+# e9834c27ece94ebca5084483ff0d3c09
 #: ../../src/tutorial/topology.rst:15
 msgid "Stephen Woodbridge <woodbri@swoodbridge.com>"
 msgstr ""
 
-# e7c08e6547ac481cbd0a2e623387b702
+# 7ee7ae0034f94019aa0281556d6b0496
 #: ../../src/tutorial/topology.rst:16
 msgid ""
 "Stephen Woodbridge. The source code is released under the MIT-X license."
 msgstr ""
 
-# 79b3480b2905452aab56c2d466152972
+# 0a1c0bf044144a1e9a5436f7c5b3c786
 #: ../../src/tutorial/topology.rst:20
 msgid "Overview"
 msgstr ""
 
-# ebf26fb7f3db4a2fb4ed4bbc56554d84
+# b12d059dd2214fc9b0711a841fa64db9
 #: ../../src/tutorial/topology.rst:22
 msgid ""
 "Typically when GIS files are loaded into the data database for use with "
-"pgRouting they do not have topology information assocated with them. To "
+"pgRouting they do not have topology information associated with them. To "
 "create a useful topology the data needs to be \"noded\". This means that "
 "where two or more roads form an intersection there it needs to be a node at "
 "the intersection and all the road segments need to be broken at the "
@@ -51,7 +51,7 @@ msgid ""
 "any other segment via that intersection."
 msgstr ""
 
-# 9371ec6508e04ee7a9c31985bb8fac9c
+# c443e98e740d4b69bbdbb19c90398f4c
 #: ../../src/tutorial/topology.rst:24
 msgid ""
 "You can use the :ref:`graph analysis functions <analytics>` to help you see "
@@ -62,7 +62,7 @@ msgid ""
 "be the right thing to do."
 msgstr ""
 
-# a4760bd5fec24e478318fc3d6a5c7f24
+# 19fc6415c2784766ba25baa96ae2973c
 #: ../../src/tutorial/topology.rst:26
 msgid ""
 "For example, when you have an overpass and underpass intersection, you do "
@@ -74,7 +74,7 @@ msgid ""
 "be ok."
 msgstr ""
 
-# dace0a618e54403c90f1ba04c590cfbb
+# a542d52768764106b9fa770a7fbdb69b
 #: ../../src/tutorial/topology.rst:28
 msgid ""
 "For those cases where topology needs to be added the following functions may"
@@ -86,7 +86,7 @@ msgid ""
 "what you can do with your data."
 msgstr ""
 
-# fac3502c69e64d55bea893eb89e4237c
+# 8f25a3ae2b884ddab76f782674157800
 #: ../../src/tutorial/topology.rst:49
 msgid ""
 "The function :ref:`pgr_createTopology() <pgr_create_topology>` will create "
@@ -96,29 +96,29 @@ msgid ""
 "statements converts it to an average speed."
 msgstr ""
 
-# c72208e2b9334a20bc85ab7c9c0ff2c4
+# c96c08fd8d2f4b938d8cca5083d8c410
 #: ../../src/tutorial/topology.rst:112
 msgid ""
 "Now your database should be ready to use any (most?) of the pgRouting "
 "algorithms."
 msgstr ""
 
-# b02584cae7584f1bb39c0d6488cf0a84
+# 661f183cb45c4f649f16546451c961ce
 #: ../../src/tutorial/topology.rst:116
 msgid "See Also"
 msgstr "参照"
 
-# f376a1fc4f3442b1b49008cd2ff37b40
+# c2aeda4483c24d8882861048a2e3296b
 #: ../../src/tutorial/topology.rst:118
 msgid ":ref:`pgr_create_topology`"
 msgstr ":ref:`pgr_create_topology`"
 
-# 864676f90cda450fa380d69990f05f93
+# 0912004a2a2e4159b31ff7c65e2aedfc
 #: ../../src/tutorial/topology.rst:119
 msgid ":ref:`pgr_node_network`"
 msgstr ":ref:`pgr_node_network`"
 
-# 668344ff5fd04f8a83a1de5941c5352e
+# a95e6387d88d41f0983f47318fe9ee66
 #: ../../src/tutorial/topology.rst:120
 msgid ":ref:`pgr_point_to_id`"
 msgstr ":ref:`pgr_point_to_id`"

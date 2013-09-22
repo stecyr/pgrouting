@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) pgRouting Contributors - Version 2.0.0-dev (129919f develop)
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
 # This file is distributed under the same license as the pgRouting package.
 # 
 # Translators:
@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:47\n"
-"PO-Revision-Date: 2013-08-04 04:21+0000\n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
+"PO-Revision-Date: 2013-09-20 14:14+0000\n"
 "Last-Translator: Daniel Kastl\n"
 "Language-Team: German (http://www.transifex.com/projects/p/pgrouting/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -17,49 +17,49 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# a9464a666ddf4a3cafb34cd7875cb1f9
+# cbc6f74182404735b88d9b599a4c91a0
 #: ../../../src/common/doc/functions/node_network.rst:13
-msgid "pgr_nodeNetwork - Nodes an network edge table."
+msgid "pgr_nodeNetwork"
 msgstr ""
 
-# 499ee762782d401990c87c8a406016d3
+# e2bbdaa88e964c58b36f56600db4f935
 #: ../../../src/common/doc/functions/node_network.rst:20
 msgid "Name"
 msgstr "Name"
 
-# 126a572ada6a483592c73f33374b9b1f
+# 753ef1812145448d9ff733a9be35fc1d
 #: ../../../src/common/doc/functions/node_network.rst:22
 msgid "``pgr_nodeNetwork`` - Nodes an network edge table."
 msgstr ""
 
-# 4c6918a689634d1fab4321126ee2dd51
+# f22ba030c935456a98339f9fbc8daf10
 #: ../../../src/common/doc/functions/node_network.rst:24
 msgid "Nicolas Ribot"
 msgstr ""
 
-# d4ece2502987402dbeae2118be595b03
+# 433cde942b4d42be9df8d30b5bb271bb
 #: ../../../src/common/doc/functions/node_network.rst:25
 msgid "Nicolas Ribot, The source code is released under the MIT-X license."
 msgstr ""
 
-# ccae598006384288960ed51040e8c828
+# 92dd9c532335446480263cd6f2135d78
 #: ../../../src/common/doc/functions/node_network.rst:29
 msgid "Synopsis"
 msgstr "Übersicht"
 
-# 9b0d3a3cd6de413c907f36c441d84876
+# edef3fc67a014f3e8b9d8ae944a93b61
 #: ../../../src/common/doc/functions/node_network.rst:31
 msgid ""
 "The function reads edges from a not \"noded\" network table and writes the "
 "\"noded\" edges into a new table."
 msgstr ""
 
-# 766b9075a95e44c6a0401e7f2f4954e5
+# 34bb78f5cfc24a5a83a44903544d83d6
 #: ../../../src/common/doc/functions/node_network.rst:40
 msgid "Description"
 msgstr "Beschreibung"
 
-# 862ebce3b15743a090693150e82b2b54
+# 88007dd97a1842018d71b93847803ca7
 #: ../../../src/common/doc/functions/node_network.rst:42
 msgid ""
 "A common problem associated with bringing GIS data into pgRouting is the "
@@ -67,94 +67,350 @@ msgid ""
 "invalid topologies, which will result in routes that are incorrect."
 msgstr ""
 
-# 295bf322fbac410285d5df159419bc84
+# 17794da0ccb7441c8aacd522ab662440
 #: ../../../src/common/doc/functions/node_network.rst:44
 msgid ""
 "What we mean by \"noded\" is that at every intersection in the road network "
 "all the edges will be broken into separate road segments. There are cases "
 "like an over-pass and under-pass intersection where you can not traverse "
 "from the over-pass to the under-pass, but this function does not have the "
-"ability to detect and accomodate those situations."
+"ability to detect and accommodate those situations."
 msgstr ""
 
-# e4a7f7ed948744ab8ad4905bb68245ad
+# 2822f4173efc4e3b96aa41048019399f
 #: ../../../src/common/doc/functions/node_network.rst:46
 msgid ""
-"This function reads the ``table_in`` table, that has a primary key column "
-"``gid_cname`` and geometry column named ``geo_cname`` and intersect all the "
-"segments in it against all the other segments and then creates a table "
-"``table_out``. It uses the ``tolerance`` for deciding that multiple nodes "
-"within the tolerance are considered the same node."
+"This function reads the ``edge_table`` table, that has a primary key column "
+"``id`` and geometry column named ``the_geom`` and intersect all the segments"
+" in it against all the other segments and then creates a table "
+"``edge_table_noded``. It uses the ``tolerance`` for deciding that multiple "
+"nodes within the tolerance are considered the same node."
 msgstr ""
 
-# 9f833c7a38da42bb96c3a6029b070954
+# 8856d83be2f5439593d401fbe1b8de91
 #: ../../../src/common/doc/functions/node_network.rst:48
-msgid "``text`` name of the input table to be noded"
+msgid "Parameters"
 msgstr ""
 
-# 400d367c13b644ca9a2392280679b0a4
-#: ../../../src/common/doc/functions/node_network.rst:49
-msgid "``text`` name of the primary key column for the input table"
-msgstr ""
-
-# c6ddba890a254ce1831c9714cdc24503
+# 7f795d2c3b8142d1899c0200fa8a465c
 #: ../../../src/common/doc/functions/node_network.rst:50
-msgid "``text`` name of the geometry column that should be noded"
+msgid "``text`` Network table name. (may contain the schema name as well)"
 msgstr ""
 
-# 7fc0871cdbe1441c92e0457bc1c9699e
+# 2762ff1f8c6b4fe9a7c1394d76c4610f
 #: ../../../src/common/doc/functions/node_network.rst:51
-msgid "``text`` name of the output table that will be created"
+msgid "``float8`` tolerance for coincident points (in projection unit)dd"
 msgstr ""
 
-# 4b57715be7a54c14b9dd23cc7e26b40b
+# 4cca5402c2f4477f9f0f3074752a6505
 #: ../../../src/common/doc/functions/node_network.rst:52
-msgid "``float8`` tolerance for coinicident points (in projection unit)"
-msgstr ""
-
-# 73d04f3fcff441529947c1e2ec01cda2
-#: ../../../src/common/doc/functions/node_network.rst:54
-msgid "The ``table_out`` table has a structure like:"
-msgstr ""
-
-# 2649117fd8ef4cff98b813ef8c81b2d9
-#: ../../../src/common/doc/functions/node_network.rst:56
-msgid "``integer`` is a reference to the record in ``table_in``"
-msgstr ""
-
-# 2b31022888474f9291c8fa557d81de6b
-#: ../../../src/common/doc/functions/node_network.rst:57
 msgid ""
-"``bigint`` is a sequence number that identifies all the new segments "
-"generated from the original record."
+"``text`` Primary key column name of the network table. Default value is "
+"``id``."
 msgstr ""
 
-# 522f9ea90f954d2aaa39fdc2a4ef6731
+# 59b174b50dad4fb3b462b914deb84bd5
+#: ../../../src/common/doc/functions/node_network.rst:53
+msgid ""
+"``text`` Geometry column name of the network table. Default value is "
+"``the_geom``."
+msgstr ""
+
+# 0817807728c2441ba918f9de680c01ec
+#: ../../../src/common/doc/functions/node_network.rst:54
+msgid "``text`` Suffix for the new table's. Default value is ``noded``."
+msgstr ""
+
+# 36e986b65d1b4e6caf4ae6a963bbedbe
+#: ../../../src/common/doc/functions/node_network.rst:56
+msgid "The output table will have for  ``edge_table_noded``"
+msgstr ""
+
+# 335ac2ca31c84f2f81306076c03ab68c
 #: ../../../src/common/doc/functions/node_network.rst:58
-msgid "``geometry`` attribute"
+msgid "``bigint`` Unique identifier for the table"
 msgstr ""
 
-# e6cd3bba77a04bed9eff403db89c73d4
+# ff320efe4c184c02a50b2af4dd59363f
+#: ../../../src/common/doc/functions/node_network.rst:59
+msgid "``bigint``  Identifier of the edge in original table"
+msgstr ""
+
+# fbcbbd3bde3d46b6b173b598eeba57e2
+#: ../../../src/common/doc/functions/node_network.rst:60
+msgid "``integer`` Segment number of the original edge"
+msgstr ""
+
+# 4dd5d85c96334cbd9005709904b7c869
 #: ../../../src/common/doc/functions/node_network.rst:61
+msgid ""
+"``integer`` Empty source column to be used with  :ref:`pgr_create_topology` "
+"function"
+msgstr ""
+
+# 303ca472536c4e379356a7f8f71f4b3b
+#: ../../../src/common/doc/functions/node_network.rst:62
+msgid ""
+"``integer`` Empty target column to be used with  :ref:`pgr_create_topology` "
+"function"
+msgstr ""
+
+# 25add525af24498e8bc8b530c5f048d1
+#: ../../../src/common/doc/functions/node_network.rst:63
+msgid "``geometry`` Geometry column of the noded network"
+msgstr ""
+
+# 1092a09a7a3e49f6ac32ed164fb0d167
+#: ../../../src/common/doc/functions/node_network.rst:66
 msgid "History"
 msgstr "Geschichte"
 
-# 24d86d4b09e64eecb8a2b26bd8241993
-#: ../../../src/common/doc/functions/node_network.rst:62
+# 986cc70b85e94679a57e613005476fa3
+#: ../../../src/common/doc/functions/node_network.rst:67
 msgid "New in version 2.0.0"
 msgstr "Neu in Version 2.0.0"
 
-# 5c1ff55a074641678104e9ea70b2adca
-#: ../../../src/common/doc/functions/node_network.rst:66
-msgid "Examples"
-msgstr "Beispiele"
+# cdeba6355fd542ed9b3e4282d37468c1
+#: ../../../src/common/doc/functions/node_network.rst:71
+msgid "Example"
+msgstr ""
 
-# 30b3b800155b4bafb4082ef463889638
-#: ../../../src/common/doc/functions/node_network.rst:79
+# aae43e4f74644a9599769dae865dfb25
+#: ../../../src/common/doc/functions/node_network.rst:73
+msgid "Let's create the topology for the data in :ref:`sampledata`"
+msgstr ""
+
+# 7d6dee89cc0b4387a64fde93f8331192
+#: ../../../src/common/doc/functions/node_network.rst:91
+msgid "Now we can analyze the network."
+msgstr ""
+
+# b6100389017e46648ba35b2b093077b9
+#: ../../../src/common/doc/functions/node_network.rst:115
+msgid ""
+"The analysis tell us that the network has a gap and and an intersection. We "
+"try to fix the problem using:"
+msgstr ""
+
+# a1eb8d10244a4a54aa30d10bd8b2153b
+#: ../../../src/common/doc/functions/node_network.rst:137
+msgid ""
+"Inspecting the generated table, we can see that edges 13,14 and 18 has been "
+"segmented"
+msgstr ""
+
+# 324837c173cb4e1c8ecd0e5d82be2bf0
+#: ../../../src/common/doc/functions/node_network.rst:167
+msgid "We can create the topology of the new network"
+msgstr ""
+
+# 1790de83e9cf43c0b8a0e14ac8922540
+#: ../../../src/common/doc/functions/node_network.rst:185
+msgid "Now let's analyze the new topology"
+msgstr ""
+
+# c4bdeeec936e4cfeb26a68910087c362
+#: ../../../src/common/doc/functions/node_network.rst:211
+msgid "Images"
+msgstr ""
+
+# ed7ec24aef8d493888f8d6c5f0a440f1
+#: ../../../src/common/doc/functions/node_network.rst:244
+msgid "Comparing the results"
+msgstr ""
+
+# 315c7f2638114b83bc9940da34ddf13a
+#: ../../../src/common/doc/functions/node_network.rst:246
+msgid "Comparing with the Analysis in the original edge_table, we see that."
+msgstr ""
+
+# 9204a1a5129d4f77a1bd4f46084d30d9
+#: ../../../src/common/doc/functions/node_network.rst:249
+msgid "Before"
+msgstr ""
+
+# aec025d2b31e458192736e28a24a1391
+#: ../../../src/common/doc/functions/node_network.rst:249
+msgid "After"
+msgstr ""
+
+# 968394a0684748499a58f5f049b1cd1c
+#: ../../../src/common/doc/functions/node_network.rst:251
+msgid "Table name"
+msgstr ""
+
+# fbb7f7e7a21344a981f5f84e08132c1d
+#: ../../../src/common/doc/functions/node_network.rst:251
+msgid "edge_table"
+msgstr ""
+
+# f74e1cf2bfb84fbfa2bff6a0c10f93cc
+#: ../../../src/common/doc/functions/node_network.rst:251
+msgid "edge_table_noded"
+msgstr ""
+
+# 081da2e1579f404e8e65f7d7e6649563
+#: ../../../src/common/doc/functions/node_network.rst:253
+msgid "Fields"
+msgstr ""
+
+# dbe2bc0be117429782e5a191eb5a7b1f
+#: ../../../src/common/doc/functions/node_network.rst:253
+msgid "All original fields"
+msgstr ""
+
+# f6101926be5241be8b7329989e0a09ee
+#: ../../../src/common/doc/functions/node_network.rst:253
+msgid "Has only basic fields to do a topology analysis"
+msgstr ""
+
+# a7828f0cfe5b43ab821f7ea84d10e80f
+#: ../../../src/common/doc/functions/node_network.rst:255
+msgid "Dead ends"
+msgstr ""
+
+# 12401be679d745a49f339533862b94b7
+#: ../../../src/common/doc/functions/node_network.rst:255
+msgid "Edges with 1 dead end: 1,6,24"
+msgstr ""
+
+# f850b4aba56444f69d05a3d8cee33b92
+#: ../../../src/common/doc/functions/node_network.rst:256
+msgid "Edges with 2 dead ends  17,18"
+msgstr ""
+
+# f9bf4d6bb14540e1949b8daeaa216d02
+#: ../../../src/common/doc/functions/node_network.rst:258
+msgid ""
+"Edge 17's right node is a dead end because there is no other edge sharing "
+"that same node. (cnt=1)"
+msgstr ""
+
+# 93aec5eacbfd40eca8d78acbf3cc1f5d
+#: ../../../src/common/doc/functions/node_network.rst:255
+msgid "Edges with 1 dead end: 1-1 ,6-1,14-2, 18-1 17-1 18-2"
+msgstr ""
+
+# 5ef2e582584047e58f608e32a02a6093
+#: ../../../src/common/doc/functions/node_network.rst:262
+msgid "Isolated segments"
+msgstr ""
+
+# 7315d9158c8847bca8f06dc8030e12ed
+#: ../../../src/common/doc/functions/node_network.rst:262
+msgid "two isolated segments:  17 and 18 both they have 2 dead ends"
+msgstr ""
+
+# 25e278d2bc13489d892fc484f0bd6721
+#: ../../../src/common/doc/functions/node_network.rst:263
+msgid "No Isolated segments"
+msgstr ""
+
+# 24b19790b1cf48e39c06d7f1e838dc81
+#: ../../../src/common/doc/functions/node_network.rst:263
+msgid "Edge 17 now shares a node with edges 14-1 and 14-2"
+msgstr ""
+
+# 1914721f635442638a91e5153e6ccd9d
+#: ../../../src/common/doc/functions/node_network.rst:264
+msgid "Edges 18-1 and 18-2 share a node with edges 13-1 and 13-2"
+msgstr ""
+
+# 652fe8a32cb04e12b47da65b389a82a4
+#: ../../../src/common/doc/functions/node_network.rst:266
+msgid "Gaps"
+msgstr ""
+
+# 701a6953f86d4c4ca0d328df39be5d5b
+#: ../../../src/common/doc/functions/node_network.rst:266
+msgid ""
+"There is a gap between edge 17 and 14 because edge 14 is near to the right "
+"node of edge 17"
+msgstr ""
+
+# 63891d259baf4d339d8443c0792d9f73
+#: ../../../src/common/doc/functions/node_network.rst:266
+msgid ""
+"Edge 14 was segmented Now edges: 14-1 14-2 17 share the same node The "
+"tolerance value was taken in account"
+msgstr ""
+
+# 20455bb52a4b4a7bb2951c40a9f27650
+#: ../../../src/common/doc/functions/node_network.rst:270
+msgid "Intersections"
+msgstr ""
+
+# 5c5d0c42fae742f2a94b3ad933c9fe45
+#: ../../../src/common/doc/functions/node_network.rst:270
+msgid "Edges 13 and 18 were intersecting"
+msgstr ""
+
+# 8327607273fd428bab98612d36342aaf
+#: ../../../src/common/doc/functions/node_network.rst:270
+msgid ""
+"Edges were segmented, So, now in the interection's point there is a node and"
+" the following edges share it: 13-1 13-2 18-1 18-2"
+msgstr ""
+
+# dd8cf7c6ce664b14b3e5217bb927fba3
+#: ../../../src/common/doc/functions/node_network.rst:275
+msgid ""
+"Now, we are going to include the segments 13-1, 13-2 14-1, 14-2 ,18-1 and "
+"18-2 into our edge-table, copying the data for dir,cost,and reverse cost "
+"with tho following steps:"
+msgstr ""
+
+# 76100d22c00a479c8a33d4b7db1ff5dc
+#: ../../../src/common/doc/functions/node_network.rst:277
+msgid ""
+"Add a column old_id into edge_table, this column is going to keep track the "
+"id of the original edge"
+msgstr ""
+
+# 8b49cfa50ec64a7fa35a82862e74b5db
+#: ../../../src/common/doc/functions/node_network.rst:278
+msgid ""
+"Insert only the segmented edges, that is, the ones whose max(sub_id) >1"
+msgstr ""
+
+# 10688d25b402469495da15a5f80869da
+#: ../../../src/common/doc/functions/node_network.rst:291
+msgid "We recreate the topology:"
+msgstr ""
+
+# 8f86d5569f5b4ecfb49795a4e0cc4593
+#: ../../../src/common/doc/functions/node_network.rst:311
+msgid ""
+"To get the same analysis results as the topology of edge_table_noded, we do "
+"the following query:"
+msgstr ""
+
+# b1a43631ad7844afaaa94c55d6d58514
+#: ../../../src/common/doc/functions/node_network.rst:338
+msgid ""
+"To get the same analysis results as the original edge_table, we do the "
+"following query:"
+msgstr ""
+
+# 073b1241a62f47d29a2184f1f990c6e3
+#: ../../../src/common/doc/functions/node_network.rst:363
+msgid ""
+"Or we can analyze everything because, maybe edge 18 is an overpass, edge 14 "
+"is an under pass and there is also a street level juction, and the same "
+"happens with edges 17 and 13."
+msgstr ""
+
+# 0ac4e93b280b4e129e9ac3d0e78fe17a
+#: ../../../src/common/doc/functions/node_network.rst:390
 msgid "See Also"
 msgstr "Siehe auch"
 
-# c74ab0ef78134f749c3fe6bb4a92c340
-#: ../../../src/common/doc/functions/node_network.rst:81
-msgid ":ref:`pgr_create_topology`"
+# 99706f30e7de48a49baf5b3480f3edf8
+#: ../../../src/common/doc/functions/node_network.rst:392
+msgid ""
+":ref:`topology` for an overview of a topology for routing algorithms. "
+":ref:`pgr_analyze_oneway` to analyze directionality of the edges. "
+":ref:`pgr_create_topology` to create a topology based on the geometry. "
+":ref:`pgr_analyze_graph` to analyze the edges and vertices of the edge "
+"table."
 msgstr ""

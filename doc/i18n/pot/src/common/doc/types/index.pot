@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/common/doc/types/index.rst:13
-# ee0e30f7c1104b899a348684f60f4966
+# 60605e40762c4b7cb1330ddb924a54e5
 msgid "pgRouting Data Types"
 msgstr ""
 
 #: ../../../src/common/doc/types/index.rst:15
-# f1c9397a380b4023bc102c2c4ba8b4a6
+# 59b03e625744473092ab93d81300a3ea
 msgid "The following are commonly used data types for some of the pgRouting functions."
 msgstr ""
 

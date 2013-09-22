@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,132 +17,132 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/apsp_warshall/doc/index.rst:13
-# 7fbdb9727e394d3fa780318d4a2d2d9a
+# 0f1284ff13c64db68306d3e8f9c97beb
 msgid "pgr_apspWarshall - All Pairs Shortest Path, Floyd-Warshall Algorithm"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:20
-# 42e51f88c33d4af4a71f96d6c1f60848
+# 42b576974e9a458e951dd429ba4ac9f7
 msgid "Name"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:22
-# 716ca9b1663e4649ac29e85bc1f6b5ea
+# 8610cfce602b4e43867a979e40348da5
 msgid "``pgr_apspWarshall`` - Returns all costs for each pair of nodes in the graph."
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:26
-# a88de88c96b543de95f9ec5e40f29493
+# 4c8c0af0a22f4783b5f40d7d68b431da
 msgid "Synopsis"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:28
-# 7147a99bbdbd446d88a4d4621b29db35
+# 001f0668ce734f4b9419fd7b22d98b00
 msgid "The Floyd-Warshall algorithm (also known as Floyd's algorithm and other names) is a graph analysis algorithm for finding the shortest paths between all pairs of nodes in a weighted graph. Returns a set of :ref:`pgr_costResult <type_cost_result>` (seq, id1, id2, cost) rows for every pair of nodes in the graph."
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:36
-# a2d63f5a275c425d9174bdfcbe7db94f
+# e7c4a6dd259d46cd9fcf2631dbc22f2e
 msgid "Description"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:38
-# 70194479a14c40f5864de8baf170ac78
+# e0f6896524cc4a4d91c418144da5102b
 msgid "a SQL query that should return the edges for the graph that will be analyzed:"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:44
-# d6cb42b55c7c438cb4d18a38ab4698f2
+# 97a32a6ff6e14816834d1eb5e229f2b4
 msgid "``int4`` identifier of the edge"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:45
-# 6ede8c46d9c84825841175f53b4a4fe0
+# b42ae19f11c44f618c034ae1ce6be00a
 msgid "``int4`` identifier of the source vertex for this edge"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:46
-# df989bc6936d4ec28abf194f0f607643
+# c0b57bb608d34affbce8c6bb5ec9302f
 msgid "``int4`` identifier of the target vertex for this edge"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:47
-# 38cb91d4bb9241feb9b922fce40b73f4
+# c5cb344693474da29d9a8ff57e96c0f7
 msgid "``float8`` a positive value for the cost to traverse this edge"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:49
-# 85489af109c645e7a06c4e9e321c77a6
+# 5dd37dfc4bff497d85337655170aa2fe
 msgid "``true`` if the graph is directed"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:50
-# 460df4f098d34ce3ac40a12c1d644a24
+# 6996d55bc55245d39ea7b7fadce791a7
 msgid "if ``true``, the ``reverse_cost`` column of the SQL generated set of rows will be used for the cost of the traversal of the edge in the opposite direction."
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:52
-# e4273b3317634f4280dfb6b2078981c7
+# a26f91fad97b4c1fb810f9cbe42a7c55
 msgid "Returns set of :ref:`type_cost_result`:"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:54
-# ee9786f4dd60401ab927094bfde2d67a
+# d67cd203b9424e1faa0416ab268956c5
 msgid "row sequence"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:55
-# c4f2315132d94bb1899397209fb9e39f
+# 13448c2239764d798d56189875475d19
 msgid "source node ID"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:56
-# be24b323170d440c9c08db0274f5dcd6
+# 754d094ac6ae42d5a22b8855ce7a73e7
 msgid "target node ID"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:57
-# 42846cea32c141cfb53791e34cfac351
+# c9edf1f99746459c9ef79922766fc805
 msgid "cost to traverse from ``id1`` to ``id2``"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:61
-# 4037016acdd248ee832b028c29acc0c4
+# e878f40e61334a669136534d82f3bc05
 msgid "History"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:62
-# b74e67632bd746e0847e84dd7cfc83ef
+# b506bf29ad7944d7bd0db6d48ffe9f4f
 msgid "New in version 2.0.0"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:66
-# 1eb74c4f1ff14353af8eac676ac0c584
+# 5c0117f6a40740aa8b02bc181e0e01dc
 msgid "Examples"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:84
-# 54e8baf1bf484893b98ad4ed39a11980
+# 38918d939ef74f6e86528d1060dc810c
 msgid "The query uses the :ref:`sampledata` network."
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:88
-# 3a8d914a671842148cb7e2d5a90ae502
+# 4feffc0c2a824f81bb35b10c6f13176d
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:90
-# 955309c670164766a746dc2ce007b903
+# aa6ecd6c9d584db1adf49b7df81583e9
 msgid ":ref:`type_cost_result`"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:91
-# 750d16835e8d4472bae0342e537f4eb5
+# 0f05cbf530e0455daed36d6b50bbf30f
 msgid ":ref:`pgr_apsp_johnson`"
 msgstr ""
 
 #: ../../../src/apsp_warshall/doc/index.rst:92
-# 8ff5be783e9145718bbfe1be16d2f402
+# b09888d0778445eb93cbdfb7075b4157
 msgid "http://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm"
 msgstr ""
 

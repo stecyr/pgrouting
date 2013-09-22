@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/developer/discontinued.rst:13
-# 8adaa732333f4ecd88677a7ee9e78737
+# ecfce536b0aa4abcb4b588ec5c569d01
 msgid "Discontinued Functions"
 msgstr ""
 
 #: ../../src/developer/discontinued.rst:15
-# 61e8afcd055b48b88f828fb5998d0ac2
+# a62da7ecbf3e4e56817c5acd4b283ad1
 msgid "Especially with new major releases functionality may change and functions may be discontinued for various reasons. Functionality that has been discontinued will be listed here."
 msgstr ""
 
 #: ../../src/developer/discontinued.rst:22
-# f118e9c6e9ce4e28920293f89f70faf0
+# 778ac5fe0c47470883e33983eee7b86e
 msgid "Shooting Star algorithm"
 msgstr ""
 
 #: ../../src/developer/discontinued.rst:24
-# a1f8bc84097f4e2b8da5e7195e7388d8
+# b6e21b5fe8ff45d3b6ae4cd3e21ff661
 msgid "Removed with 2.0.0"
 msgstr ""
 
 #: ../../src/developer/discontinued.rst:25
-# 29daf9711ff14f92a73474d7832742b3
+# 681aaa34e63344de87e7765476be87f2
 msgid "Unresolved bugs, no maintainer, replaced with :ref:`trsp`"
 msgstr ""
 
 #: ../../src/developer/discontinued.rst:26
-# fcc9cc47a4594efb9dc2dba082e72415
+# c11387652cc84dd7ad0e964baff5182e
 msgid "Please :ref:`contact us <support>` if you're interested to sponsor or maintain this algorithm. The function signature is still available in :ref:`common_legacy` but it is just a wrapper that throws an error. We have not included any of the old code for this in this release."
 msgstr ""
 

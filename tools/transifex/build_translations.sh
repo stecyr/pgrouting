@@ -10,7 +10,7 @@ ROOT=$(pwd)
 CONFIG="build/doc/_build"
 DOCDIR="doc/i18n"
 
-LANGUAGES='de es ja'
+LANGUAGES='de es ja fr'
 
 if [ $1 ]; then
 	LANGUAGES=$1

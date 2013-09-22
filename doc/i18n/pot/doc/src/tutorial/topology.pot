@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,72 +17,72 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/tutorial/topology.rst:13
-# 288663f2be9546b4870655f15325a7a1
+# 95ba56beb837464cac49ef7880693c4c
 msgid "Routing Topology"
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:15
-# e9834c27ece94ebca5084483ff0d3c09
+# a13e17875be047edb65c4dff0e77e3a3
 msgid "Stephen Woodbridge <woodbri@swoodbridge.com>"
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:16
-# 7ee7ae0034f94019aa0281556d6b0496
+# fae10235d477445e8c8ad3b8ddf138c5
 msgid "Stephen Woodbridge. The source code is released under the MIT-X license."
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:20
-# 0a1c0bf044144a1e9a5436f7c5b3c786
+# bb8d84bed17047048664ea7fe078eb94
 msgid "Overview"
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:22
-# b12d059dd2214fc9b0711a841fa64db9
+# 2a882bec3de94c1eb574a3eb222c98e4
 msgid "Typically when GIS files are loaded into the data database for use with pgRouting they do not have topology information associated with them. To create a useful topology the data needs to be \"noded\". This means that where two or more roads form an intersection there it needs to be a node at the intersection and all the road segments need to be broken at the intersection, assuming that you can navigate from any of these segments to any other segment via that intersection."
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:24
-# c443e98e740d4b69bbdbb19c90398f4c
+# 65c5e66127ab486492799e66af98970c
 msgid "You can use the :ref:`graph analysis functions <analytics>` to help you see where you might have topology problems in your data. If you need to node your data, we also have a function :ref:`pgr_nodeNetwork() <pgr_node_network>` that might work for you. This function splits ALL crossing segments and nodes them. There are some cases where this might NOT be the right thing to do."
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:26
-# 19fc6415c2784766ba25baa96ae2973c
+# efc1fb5385064e7da087f3b0371faf57
 msgid "For example, when you have an overpass and underpass intersection, you do not want these noded, but pgr_nodeNetwork does not know that is the case and will node them which is not good because then the router will be able to turn off the overpass onto the underpass like it was a flat 2D intersection. To deal with this problem some data sets use z-levels at these types of intersections and other data might not node these intersection which would be ok."
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:28
-# a542d52768764106b9fa770a7fbdb69b
+# 43c22da1f7b34db7999adbad7ac7a4e1
 msgid "For those cases where topology needs to be added the following functions may be useful. One way to prep the data for pgRouting is to add the following columns to your table and then populate them as appropriate. This example makes a lot of assumption like that you original data tables already has certain columns in it like ``one_way``, ``fcc``, and possibly others and that they contain specific data values. This is only to give you an idea of what you can do with your data."
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:49
-# 8f25a3ae2b884ddab76f782674157800
+# 30e52836594b46f1917dd9ffaa55fc0c
 msgid "The function :ref:`pgr_createTopology() <pgr_create_topology>` will create the ``vertices_tmp`` table and populate the ``source`` and ``target`` columns. The following example populated the remaining columns. In this example, the ``fcc`` column contains feature class code and the ``CASE`` statements converts it to an average speed."
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:112
-# c96c08fd8d2f4b938d8cca5083d8c410
+# 6aa2b52ff1ac4c16a315c9ddfdf90b57
 msgid "Now your database should be ready to use any (most?) of the pgRouting algorithms."
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:116
-# 661f183cb45c4f649f16546451c961ce
+# 6cc3d005cb454b77959bfbdc6fdd2105
 msgid "See Also"
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:118
-# c2aeda4483c24d8882861048a2e3296b
+# 40847af777814998afe63d824d73c507
 msgid ":ref:`pgr_create_topology`"
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:119
-# 0912004a2a2e4159b31ff7c65e2aedfc
+# 974b427fbcf64ec8ab76456dcd37bd7d
 msgid ":ref:`pgr_node_network`"
 msgstr ""
 
 #: ../../src/tutorial/topology.rst:120
-# a95e6387d88d41f0983f47318fe9ee66
+# adedad6329b0494988daee57bcf0cb98
 msgid ":ref:`pgr_point_to_id`"
 msgstr ""
 

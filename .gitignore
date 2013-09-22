@@ -5,3 +5,4 @@ build
 issues
 tools/vagrant/packaging.sh
 *.mo
+doc/i18n/pot/.doctrees

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,112 +17,112 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:13
-# 19042661edbf4227ae2b74d2e1659a79
+# cb2e05bbf556427191f8dd5d87c670db
 msgid "pgr_alphaShape"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:20
-# d7231cf58b5e4c8eac6ee404afcf6f3d
+# cd5cca6682b34a85b72fd0b7c90d739b
 msgid "Name"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:22
-# 3741ca90e15e414da4cc075a71e26e35
+# 9a0ca65720774711aefd2d017e4487e9
 msgid "``pgr_alphashape`` — Core function for alpha shape computation."
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:26
-# 4db9ae80fcc246c4840331a10f3f501f
+# 525edb2bc28a4e77804ac30781cc3dc5
 msgid "This function should not be used directly. Use :ref:`pgr_drivingDistance <pgr_driving_distance>` instead."
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:30
-# 3c526671150940689930a2da277ceb3a
+# 96d2ea88d3bf44a793219826f7fddda3
 msgid "Synopsis"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:32
-# b800eb05917748ae81cccbcb42c3ab26
+# 4b5074bd7bc64d1c89dcc1e5b250c5f0
 msgid "Returns a table with (x, y) rows that describe the vertices of an alpha shape."
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:40
-# 6ed793dabb0f4ad1ada0a012045044c5
+# eed5f82ec9924367b7a2c7ce8ce7704a
 msgid "Description"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:42
-# b7793a5c00a64da5ad8319ae66af1152
+# 3607e16f8fe24de6a2226bb43a73dadd
 msgid "``text`` a SQL query, which should return a set of rows with the following columns:"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:48
-# 0b654510863149ab9634b8f739fa2675
+# afd24b1ef69d439691025ff955e63f25
 msgid "``int4`` identifier of the vertex"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:49
-# 7d7a257b3ca44169b2d4a8fd13cef4a4
+# c4ec83f59d634b458e6e04dc6822cc62
 msgid "``float8`` x-coordinate"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:50
-# 10170e6147fd464a9dd33e9833c04e1a
+# c78115c69ec645ceb3a8de6f3a97ebdc
 msgid "``float8`` y-coordinate"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:53
-# 9849da9bec0a451d954a01518fa4ecf3
+# 63cffe47a71d462cae8c09a10473bdaf
 msgid "Returns a vertex record for each row :"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:55
-# fbe94ba420f6469e85f1607caad66d18
+# 385ec313cc69493989a17eecd282d5b4
 msgid "x-coordinate"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:56
-# 2d97831b6a1c4669a9f50cd1dd1db6af
+# 2eb9452ee2864540b535c7be538a73f0
 msgid "y-coordinate"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:60
-# de75e507c73146d2bbe953e5c58c5342
+# bf1e04aab9ed4558aeb274dbc93fc476
 msgid "History"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:61
-# d01f1eea74ce46dfb66f4a022d7fbcbc
+# 6301d43186dc47ca9c0925f563c2b4ee
 msgid "Renamed in version 2.0.0"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:65
-# 1bab0934c91b41adb9bd6b82b7c086d0
+# 2dcc599a683743b09eb440895c823584
 msgid "Examples"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:66
-# 82726a33935640709458ac9cb248123d
+# 28059fce0d66461c88851c2efa8995b4
 msgid "In the alpha shape code we have no way to control the order of the points so the actual output you might get could be similar but different. The simple query is followed by a more complex one that constructs a polygon and computes the areas of it. This should be the same as the result on your system. We leave the details of the complex query to the reader as an exercise if they wish to decompose it into understandable pieces or to just copy and paste it into a SQL window to run."
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:119
-# db2d617db1614e9c8fb0450bff940a87
+# cea925c912c14e2bae7b67a9493f67d0
 msgid "The queries use the :ref:`sampledata` network."
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:123
-# 83de3b2103284e71bbfb788a6bc9a54d
+# b737b880282d447b840b23e77501d03b
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:125
-# 44cb90fede2944b1b543b4211a1234d5
+# 79772e0e113745068a7c48d32ae903ee
 msgid ":ref:`pgr_driving_distance` - Driving Distance"
 msgstr ""
 
 #: ../../../src/driving_distance/doc/dd_alphashape.rst:126
-# 53fba6095d37456ea5542a38f58834ab
+# 98ad4c5291f04893a9e5a6f616ce2d11
 msgid ":ref:`pgr_points_as_polygon` - Polygon around set of points"
 msgstr ""
 

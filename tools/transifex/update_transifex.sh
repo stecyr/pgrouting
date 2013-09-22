@@ -9,7 +9,7 @@
 CONFIG="build/doc/_build"
 DOCDIR="doc/i18n"
 
-LANGUAGES=(de es ja)
+LANGUAGES=(de es ja fr)
 
 echo "*************************************************************************"
 echo "Pull translations from Transifex and commit"

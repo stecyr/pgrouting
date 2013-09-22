@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,222 +17,222 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/developer/index.rst:13
-# befb307a5e2b40ed8a2e0089305e6e10
+# 1e837ccd388346eaa7c7b6fb55143ff3
 msgid "Developer's Guide"
 msgstr ""
 
 #: ../../src/developer/index.rst:16
-# b0859dd406e3414d9080c66b6c7f9cd3
+# abaa7f5bc968452d952171a40152882c
 msgid "All documentation should be in reStructuredText format. See: <http://docutils.sf.net/rst.html> for introductory docs."
 msgstr ""
 
 #: ../../src/developer/index.rst:20
-# c8383333f0024972b16b66ff60b9e533
+# 08c0f72146264e309cc3d6ed945857d0
 msgid "Source Tree Layout"
 msgstr ""
 
 #: ../../src/developer/index.rst:23
-# 93c6cb937ace4a7abf2e0cf913a68980
+# 5186c1c6242d4ebaa1f98b0395a17567
 msgid "cmake/"
 msgstr ""
 
 #: ../../src/developer/index.rst:23
-# ecc9e0c5e17e4869b8f3fc1101211d22
+# b7ea5bb289a74dabb34030cfd76ff3ef
 msgid "cmake scripts used as part of our build system."
 msgstr ""
 
 #: ../../src/developer/index.rst:28
-# f879154e4e2a4d7d81e35a9c7c05b47b
+# 2139a373dacd4e42b6b079f6b9718ef4
 msgid "core/"
 msgstr ""
 
 #: ../../src/developer/index.rst:26
-# 6cc28d029d2f428fb6217739035891c0
+# 57f0672291524cf0a8a2685a6183b3a5
 msgid "This is the algorithm source tree. Each algorithm should be contained in its on sub-tree with doc, sql, src, and test sub-directories. This might get renamed to \"algorithms\" at some point."
 msgstr ""
 
 #: ../../src/developer/index.rst:33
-# 8d58ae9619144fbeb02cb13b78e1ab89
+# e8728d3cf6124adf9afbca1f056abe2a
 msgid "core/astar/"
 msgstr ""
 
 #: ../../src/developer/index.rst:31
-# e74b50062d414707930b90cb10ed68a5
+# 84123e0ca4014981811e0b107e9be5ad
 msgid "This is an implementation of A* Search based on using Boost Graph libraries for its implementation. This is a Dijkstra shortest path implementation with a Euclidean Heuristic."
 msgstr ""
 
 #: ../../src/developer/index.rst:39
-# 974824fb84a54ec7beb3289127933912
+# d1ac4e6e7f8344edac3b4b0db2b0551b
 msgid "core/common/"
 msgstr ""
 
 #: ../../src/developer/index.rst:36
-# f45f75160e9a46148e2ca686353f81ee
+# 2b5e5cb596dc4b2a8ebf8c7fc8168011
 msgid "At the moment this does not have an core in \"src\", but does have a lot of SQL wrapper code and topology code in the \"sql\" directory. *Algorithm specific wrappers should get move to the algorithm tree and appropriate tests should get added to validate the wrappers.*"
 msgstr ""
 
 #: ../../src/developer/index.rst:43
-# 1325c026930d4d72b2ce58fd009f03dd
+# 92598c308b394cc4944ff733a6a66fa1
 msgid "core/dijkstra/"
 msgstr ""
 
 #: ../../src/developer/index.rst:42
-# fd6f05c44ec64d3398b6dda590bb40fe
+# 9f30c06d684046548109019dc47e72d0
 msgid "This is an implementation of Dikjstra's shortest path solution using Boost Graph libraries for the implementation."
 msgstr ""
 
 #: ../../src/developer/index.rst:49
-# 9d54834f638b4221bfd130b9c13da655
+# d41d028b8df54c11ba5506e0f9a1d242
 msgid "core/driving_distance/"
 msgstr ""
 
 #: ../../src/developer/index.rst:46
-# 4280414d9a6d439a89904ca1958179b0
+# 053fd76fe6cd480b812dc3fae7b6ca32
 msgid "This optional package creates driving distance polygons based on solving a Dijkstra shortest path solution, then creating polygons based on equal cost distances from the start point. This optional package requires CGAL libraries to be installed."
 msgstr ""
 
 #: ../../src/developer/index.rst:56
-# fbabe9a7cee3415da3a415bf5b30ef9f
+# ba808144447c4b019e9aac42e73d79b5
 msgid "core/shooting_star/"
 msgstr ""
 
 #: ../../src/developer/index.rst:52
-# ad8e63f618454cbf96435acd842fd388
+# ecf1e488c14f47ebbb5d39fa00873973
 msgid "*DEPRECATED and DOES NOT WORK and IS BEING REMOVED* This is an edge based shortest path algorithm that supports turn restrictions. It is based on Boost Graph. Do *NOT* use this algorithm as it is broken, instead use *trsp* which has the same functionality and is faster and give correct results."
 msgstr ""
 
 #: ../../src/developer/index.rst:62
-# 0eb988aec794467c99493f8a3df4b130
+# 4450003cad6f48669860f262e5b252cd
 msgid "core/trsp/"
 msgstr ""
 
 #: ../../src/developer/index.rst:59
-# c6004255fff0474396c456dc2b4108a9
+# 479d7d3ac9434af3b8abc3e5ec8431e0
 msgid "This is a turn restricted shortest path algorithm. It has some nice features like you can specify the start and end points as a percentage along an edge. Restrictions are stored in a separate table from the graph edges and this make it easier to manage the data."
 msgstr ""
 
 #: ../../src/developer/index.rst:67
-# fb8c1dc184234b4d922890db0900944c
+# c16ca3af34cf4a6d91a95cc4d3b3cf69
 msgid "core/tsp/"
 msgstr ""
 
 #: ../../src/developer/index.rst:65
-# c755c57bc9814203816dd320af8d52dd
+# 9871bef705c44a40a8b4e02aabe16cdd
 msgid "This optional package provides the ability to compute traveling salesman problem solutions and compute the resulting route. This optional package requires GAUL libaries to be installed."
 msgstr ""
 
 #: ../../src/developer/index.rst:70
-# bc5ad75adc434386bac8fbf34d796fd6
+# 8f557cfb161d4bd0ad9477bd4e16003e
 msgid "tools/"
 msgstr ""
 
 #: ../../src/developer/index.rst:70
-# 34154155eda5467ea6afdff141c71924
+# ec379cf154c343cabd9ac0fc0c169fa3
 msgid "Miscellaneous scripts and tools."
 msgstr ""
 
 #: ../../src/developer/index.rst:75
-# 40a0d2916d654364953afc66f78c180a
+# bab6561962974d87b0949e1966a513d1
 msgid "lib/"
 msgstr ""
 
 #: ../../src/developer/index.rst:73
-# 0b6a31febd2e46619bbe50a080a547fc
+# 8c38856c164944758d9d734f20f23d04
 msgid "This is the output directory where compiled libraries and installation targets are staged before installation."
 msgstr ""
 
 #: ../../src/developer/index.rst:78
-# 7d23eaddc7544624b34a1c9384044d66
+# 4f92a9d0380541d9801ce55dc1f69b8f
 msgid "Documentation Layout"
 msgstr ""
 
 #: ../../src/developer/index.rst:80
-# 274fc29d2db94b45afb0c4c470635a7a
+# d84cc35530084040beb98699f27b85e9
 msgid "*As noted above all documentation should be done using reStructuredText formated files.*"
 msgstr ""
 
 #: ../../src/developer/index.rst:83
-# cfa4b77b93694086a2ee32ce048181d3
+# 6b7f9d45dbc04132bf2671cb53a0abd0
 msgid "Documentation is distributed into the source tree. This top level \"doc\" directory is intended for high level documentation cover subjects like:"
 msgstr ""
 
 #: ../../src/developer/index.rst:86
-# 31cbb1b2ac464be5af7c9a36cebb86cf
+# ac6e396da26a43efa116945b01189f76
 msgid "Compiling and testing"
 msgstr ""
 
 #: ../../src/developer/index.rst:87
-# 47f42654380f412fbde26248a9c02df5
+# 98bc09d14b834af7916a5572d49a6639
 msgid "Installation"
 msgstr ""
 
 #: ../../src/developer/index.rst:88
-# dfe3a89a35b44bb3ae98c3506c1f4187
+# f9ec8aef87b345e8a2de199c112f9d36
 msgid "Tutorials"
 msgstr ""
 
 #: ../../src/developer/index.rst:89
-# 09b9617115d445889620384fbeaafeed
+# 18df8c0e571c475380ebd1644979fc8f
 msgid "Users' Guide front materials"
 msgstr ""
 
 #: ../../src/developer/index.rst:90
-# e3500b228aca405bb7085ded6003d819
+# f44cad3ac47a427dbcc22addf02cae7f
 msgid "Reference Manual front materials"
 msgstr ""
 
 #: ../../src/developer/index.rst:91
-# ccebde78542c4f05b20be52eefb74b12
+# 195da8731b9e42e595ddd048615ef8ce
 msgid "etc"
 msgstr ""
 
 #: ../../src/developer/index.rst:93
-# 0e98a28d38ee4beaab2cc95b9652e51f
+# b8405dbfb0c340c5a819493a30ad8f5a
 msgid "Since the algorithm specific documentation is contained in the source tree with the algorithm specific files, the process of building the documentation and publishing it will need to assemble the details with the front material as needed."
 msgstr ""
 
 #: ../../src/developer/index.rst:98
-# d3dbc3c88c5149f2aa74a12cddd18609
+# be25c1c578014d67b2ef74e5e8f2f15e
 msgid "Also, to keep the \"doc\" directory from getting cluttered, each major book like those listed above, should be contained in a separate directory under \"doc\". Any images or other materials related to the book should also be kept in that directory."
 msgstr ""
 
 #: ../../src/developer/index.rst:105
-# 600150c3d75b41c2b796c1957478882a
+# d4e8ac3758bc43f9b4bc8fc4922c9af7
 msgid "Testing Infrastructure"
 msgstr ""
 
 #: ../../src/developer/index.rst:107
-# 94501146e6ae4e1998e4329104d29ada
+# 77f993fab4ba4ebebf0aa84f65bab116
 msgid "There is a very basic testing infrastructure put in place. Here are the basics of how it works. We need more test cases. Longer term we should probably get someone to setup travis-ci or jenkins testing frameworks."
 msgstr ""
 
 #: ../../src/developer/index.rst:111
-# 1fa80be1a3794464881118cab07b3846
+# b346042ed380425e92edbf4962f7c5a1
 msgid "Here is the graph for the TRSP tests."
 msgstr ""
 
 #: ../../src/developer/index.rst:115
-# 5ba21ad8657c4cc380a20f800fa6780a
+# d13ed332554d4c05a24fd38e6ff3f7d5
 msgid "Tests are run via the script at the top level tools/test-runner.pl and it runs all the test configured tests and at the moment just dumps the results structure of the test. This can be prettied up later."
 msgstr ""
 
 #: ../../src/developer/index.rst:119
-# 84b07cffff924dd2a61f2ea772b38056
+# 1fc0a0d8af5345b88daec2afdbca7c1f
 msgid "It also assumes that you have installed the libraries as it tests using the installed postgresql. This probably needs to be made smarter so we can test out of the build tree. I'll need to think about that."
 msgstr ""
 
 #: ../../src/developer/index.rst:124
-# 6d1f3f31b4834ad8ac80e5e1e8a05094
+# c3198d5380cf4402830ee1febfe5405f
 msgid "Basically each .../test/ directory should include one *test.conf* file that is a perl script fragment that defines what data files to load and what tests to run. I have built in some mechanisms to allow test and data to be pg version and postgis version specific, but I'm not using that yet. So for example, *core/trsp/test/test-any-00.data* is a sql plain text dump that will load and needed data for a set of tests. This is also the graph in the image above. You can specify multiple files to load, but as a group they need to have unique names."
 msgstr ""
 
 #: ../../src/developer/index.rst:133
-# ea3554cb8d4f4c0eaf33289b516d5426
+# de6f4befb018420fa58bed55d0e8d8eb
 msgid "core/trsp/test/test-any-00.test is a sql command to be run. It will get run as:"
 msgstr ""
 
 #: ../../src/developer/index.rst:141
-# 432494d0c01f4e68ad15592248512b13
+# 834f159565e34bcd95282e839bc12743
 msgid "Then if there is a difference then an test failure is reported."
 msgstr ""
 

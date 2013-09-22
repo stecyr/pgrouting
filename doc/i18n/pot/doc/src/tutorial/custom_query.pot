@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +17,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/tutorial/custom_query.rst:13
-# 16bdaa81f3f447548150912819c89bd0
+# 6f7957030f094b6d9cbc9409e43365cc
 msgid "Custom Query"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:17
-# 79be87d36d5f4cc6b7cdca01896f8f62
+# d51566c70ba441bd97b5f05d3319f75b
 msgid "In general, the routing algorithms need an SQL query that contain one or more of the following required columns with the preferred type:"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:19
 #: ../../src/tutorial/custom_query.rst:20
 #: ../../src/tutorial/custom_query.rst:21
-# 9e8241eb8326466784e0afc7feebffd7
-# 6fe6705294114aa299cade22e4b5227c
-# 8839a87dc95444c5a26a3cb7dab01096
+# 3635e11429294bfb8119843ed85e9357
+# 3e7594678daf45f18a5e66bd639a5eff
+# 1cbb2351bab547248a9e9c603cd7a566
 msgid "int4"
 msgstr ""
 
@@ -44,70 +44,70 @@ msgstr ""
 #: ../../src/tutorial/custom_query.rst:28
 #: ../../src/tutorial/custom_query.rst:29
 #: ../../src/tutorial/custom_query.rst:63
-# 8c4421130acb4d579afeee5e7341c49a
-# 240207deb321447f9db574e866c15a4a
-# 37b679daa1b54a4ab990e04308ba44a0
-# 04f18480c74a4df8948144a52f020893
-# 48f39cbb2e444384ac843289c3c80b95
-# 0ec09872d4eb4da19f033a3c7993b18e
-# 60abc7603f04437a99d821b01611350d
-# 50ff56d0a8b945829204207b0bf2e998
-# d664ba1bbf8a4bde9fccdd7d8dbde27d
+# 4215130eed644b249425772c5e56bd0f
+# 56540a30c9bd4368b8cabf5c501404f4
+# cd08d7d274414ff8ab7201e379a68284
+# bcb0372ecaf94af1b1ddac5411662b4c
+# 0e6362bbf64c4705b5b1f75692ec42ef
+# 8d70966ee0614b2c887aaab9e45c0dd5
+# 4326b5bb0231435698e3b6d52f933827
+# 3181c241469e4670bcae933939634002
+# cb8241385b0c44c4839d156649851190
 msgid "float8"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:31
-# cba080b3896849e0bb26beec24d659cb
+# 18ef546ea54244b9a998d5db49cd6b44
 msgid "When the edge table has the mentioned columns, the following SQL queries can be used."
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:39
-# 21bc142cc92342c4ac223124f63c0ecf
+# d6c69e08f2e942548a8da4a67c6be175
 msgid "When the edge table has a different name to represent the required columns:"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:51
-# 407c50a01df94b27ad7ee6c0c88d4aab
+# d121b6e40b2549b68baeebb6ac20ebfe
 msgid "The topology functions use the same names for ``id``, ``source`` and ``target`` columns of the edge table, The fowllowing parameters have as default value:"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:53
-# 958c6bd56691447ea4d1edce7db9c8e9
+# 0cffe4e3fec240748ea92fc80198a879
 msgid "int4 Default ``id``"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:54
-# 298b829e4f11496e95b2e91ae3de9345
+# 317d18ac6e654e2699ab3c5386987100
 msgid "int4 Default ``source``"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:55
-# a2d2353b90f348cba7cf60d9c9a354b6
+# dc30cae70610482b9da90a59e92699b1
 msgid "int4 Default ``target``"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:56
-# e87d5bf9af1146a4bf8e513e76b3dcab
+# 5ea6410c1e7948d8a0de99e9348a3617
 msgid "text Default ``the_geom``"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:57
-# a9115e58d5bd4cd89957d746ad45ca5e
+# 234a816e3ec248f6938cf67c6d91e5e1
 msgid "text Default ``oneway``"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:58
-# c311627eb58e42bbae9916a5aba67f66
+# a4dbcf322242431e86e21cf0dd2d0323
 msgid "text Default ``true`` to indicate all rows (this is not a column)"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:60
-# d97bd6a173c449dc8127167612ac6182
+# 0a9261da3a204fe8973f128ef6a960e6
 msgid "The following parameters do not have a default value and when used they have to be inserted in strict order:"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:62
-# 3ef6ae3f282c4bcdb010adcf36c3a5d7
+# 24f06f6b1d4e4d4ba7fb3d078899cbeb
 msgid "text"
 msgstr ""
 
@@ -115,20 +115,20 @@ msgstr ""
 #: ../../src/tutorial/custom_query.rst:65
 #: ../../src/tutorial/custom_query.rst:66
 #: ../../src/tutorial/custom_query.rst:67
-# a3ee4f93c1754b989982f8329c82faea
-# 7fb4f79513314c5394495bf1b0ee5959
-# 596630fb65d4442c8a8f87b9c74df279
-# b2c2a586b2c543bdb74ab104b3cf4e67
+# 25b4027b78f7437bb8ce6a6142881103
+# a08810d55bc040ce8de287b6455d6007
+# 9e98508be5844523a5de60001d5ca3ee
+# c5bc2ea08c5d4e188935bd817a23e363
 msgid "text[]"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:69
-# f79a820dee9f42f6844e8a95f2aa769d
+# 324f6836a74d4eb9a61de9ec13f4efd8
 msgid "When the columns required have the default names this can be used (pgr_func is to represent a topology function)"
 msgstr ""
 
 #: ../../src/tutorial/custom_query.rst:79
-# b1a3ad26c9b3493ab96d1acf2bc14182
+# 250d7353f04c4625a0a939e34b72cbf8
 msgid "When the columns required do not have the default names its strongly recomended to use the *named notation*."
 msgstr ""
 

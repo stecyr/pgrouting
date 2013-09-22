@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,64 +17,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/common/doc/types/geom_result.rst:13
-# 146f5b9055654b7eb8d8cdc78f36b034
+# baeae55a13de4766b42a9f43c6f8caaf
 msgid "pgr_geomResult[]"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:20
-# 47e0505142744600ae2c11a116904918
+# 4fc9eadff47c4a24baa096c8c667c469
 msgid "Name"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:22
-# e1df6260d95248e39f2026364284ac4a
+# 03beb686e4ec49e08cd6f1f0f5e03339
 msgid "``pgr_geomResult[]`` — A set of records to describe a path result with geometry attribute."
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:26
-# 141b670016ed4764956da66987b7fbe2
+# fd9c91caacdf4a2fb1c186c45e1d5525
 msgid "Description"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:38
-# 28f9b6fd42264a49b1fcc67fa37a7e37
+# c00f6b668c744c7d822d2d2155e76b7a
 msgid "sequential ID indicating the path order"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:39
 #: ../../../src/common/doc/types/geom_result.rst:40
-# 5134408dd01b4b148d36e56f3b17abe7
-# 92f4a7da04a14a049beab2e10643e11e
+# 5782feff61f84fd4b3130a80b1abd7a9
+# 69c0e9623b4d41669a2601517d1563d2
 msgid "generic name, to be specified by the function"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:41
-# 2e02e4ffced048408322a1a5bee9c9c2
+# c837b15d4460475996b2f7bac8b14076
 msgid "geometry attribute"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:45
-# e507bbef07814433b53244a05466e96d
+# cf5503504b26427b800efddbc1098b64
 msgid "History"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:46
-# 9184f832bda5437e9f966c206ec015da
+# 4e474c2cf69748c680853e0505ce4773
 msgid "New in version 2.0.0"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:47
-# 3b46cdffab3345e6a75406aee74d1ad1
+# f4d42016a50f43438838421dfb361835
 msgid "Replaces ``geoms``"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:51
-# d8d607b479084f98b9640fdebde96b61
+# 0075486d62f84298b41797b5789d377a
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/common/doc/types/geom_result.rst:53
-# 1b1feb6ae64346429f75247fb3175cf9
+# 5a190ec8601a4a919a058395614d7db5
 msgid ":ref:`introduction`"
 msgstr ""
 

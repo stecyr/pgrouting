@@ -119,46 +119,51 @@ msgid "Improved build process for Windows"
 msgstr ""
 
 # eaef81c47c28441d9c6d9c55785f6664
-#: ../../src/changelog/2_0.rst:42
+#: ../../src/changelog/2_0.rst:43
 msgid "Modular library design"
 msgstr ""
 
 # 5b1f3d44b55d4502b2761acd0aed5b08
-#: ../../src/changelog/2_0.rst:43
+#: ../../src/changelog/2_0.rst:44
 msgid "Compatibility with PostgreSQL 9.1 or newer"
 msgstr ""
 
 # 592cb52588884e7e88488112e5001c71
-#: ../../src/changelog/2_0.rst:44
+#: ../../src/changelog/2_0.rst:45
 msgid "Compatibility with PostGIS 2.0 or newer"
 msgstr ""
 
 # 6f72789ca5ae4828bbe00dd0b44ed049
-#: ../../src/changelog/2_0.rst:45
+#: ../../src/changelog/2_0.rst:46
 msgid "Installs as PostgreSQL EXTENSION"
 msgstr ""
 
 # 7f85fdaaa5374934b83c0baef45e2074
-#: ../../src/changelog/2_0.rst:46
+#: ../../src/changelog/2_0.rst:47
 msgid "Return types refactored and unified"
 msgstr ""
 
 # 60c67a38e1594c7cb774d5b29c284a17
-#: ../../src/changelog/2_0.rst:47
+#: ../../src/changelog/2_0.rst:48
 msgid "Support for table SCHEMA in function parameters"
 msgstr ""
 
 # da8aea5a0d034dce84e5a2bfd3e2b342
-#: ../../src/changelog/2_0.rst:48
+#: ../../src/changelog/2_0.rst:49
 msgid "Support for ``st_`` PostGIS function prefix"
 msgstr ""
 
 # c204bde79a394b93a1a3c46bbedab1a0
-#: ../../src/changelog/2_0.rst:49
+#: ../../src/changelog/2_0.rst:50
 msgid "Added ``pgr_`` prefix to functions and types"
 msgstr ""
 
 # d7df479e712e4c3689e121a22f45f909
-#: ../../src/changelog/2_0.rst:50
+#: ../../src/changelog/2_0.rst:51
 msgid "Better documentation: http://docs.pgrouting.org"
+msgstr ""
+
+#: ../../src/changelog/2_0.rst:42
+msgid ""
+"Automated testing on Linux and Windows platforms trigger by every commit"
 msgstr ""

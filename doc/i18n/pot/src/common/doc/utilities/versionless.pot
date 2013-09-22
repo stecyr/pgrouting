@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,77 +17,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../src/common/doc/utilities/versionless.rst:13
-# 7a469482c9ae43c7bc5d0ed3a06bb4bc
+# 5209a60f43eb4ca889765b2f2855917f
 msgid "pgr_versionless"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:20
-# 517a14a719204f4ca3de81c195cca5b7
+# cf214511459c4e01a98c636ee93edf10
 msgid "Name"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:22
-# bd21db5565484fdfac62bf7c3b8f93e9
+# af9f449a91a94497a1a06310c12763cc
 msgid "``pgr_versionless`` — Compare two version numbers."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:24
-# e6c8aa6beb8e47b6aeba1dd10e191b0a
+# cfa4ec4da8d143e9bb4f33521dc1f6b2
 msgid "This function is intended for the developer’s aid."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:27
-# b31d39ebe09848e69a8e3476b4a41a40
+# 7a40ac52554840c48edaf4e3bc893f86
 msgid "Synopsis"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:29
-# 85a619f52f1c4b5ab0422860e996afb5
+# 99a72026827e4e44b1b7e0b9defa52f8
 msgid "Returns ``true`` if the first version number is smaller than the second version number. Otherwise returns ``false``."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:37
-# d3294858801d40db8f0d13bc7bdb2314
+# b541ba956f94407fbbfa4f325152d137
 msgid "Description"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:39
-# c53ca18d0ce5415b961d616141118085
+# f2b9c579402a4d529bdcf44885b7999e
 msgid "``text`` first version number"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:40
-# 1d46973347f440278099e2bf307e9f42
+# ff2f3530055d46b39b083a6e013b18f1
 msgid "``text`` second version number"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:44
-# e17360766d0547ddae24feb90e97ebe4
+# aa0e1cf348454207aba6b1bd4d82ddcd
 msgid "History"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:45
-# 3deb33170e3544b29a6c4aac337a96c4
+# 84d6600a81814c3b87c5e309a80eef62
 msgid "New in version 2.0.0"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:49
-# 983ca5bf4d994628a96ff94d366cbb6f
+# 0dbed91f114f41a2a1ccbffbb4886a47
 msgid "Examples"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:62
-# 7d7998dbbb0348a7b4c52c1708901cdb
+# cd2ca34fb88c4024ac73c6c7076b3de2
 msgid "See Also"
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:64
-# 75b3f399272745c39b6a80301c3884b6
+# ac8a4a1b5fd0499e910d1f9c088d0d25
 msgid ":ref:`developer` for the tree layout of the project."
 msgstr ""
 
 #: ../../../src/common/doc/utilities/versionless.rst:65
-# 18b871c5733a488bb904b86312121a53
+# f733092d16de4d7b9bdf31b6bdae27d3
 msgid ":ref:`pgr_version` to get the current version of pgRouting."
 msgstr ""
 

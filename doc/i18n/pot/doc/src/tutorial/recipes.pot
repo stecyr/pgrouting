@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-20 23:09\n"
+"POT-Creation-Date: 2013-09-22 13:52\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,62 +17,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../src/tutorial/recipes.rst:13
-# 530be75bfade44f7a3d01f229f7178f9
+# 9d273860d35c4c98b345909bdd05f0e6
 msgid "Use's Recipes contributions"
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:16
-# 06b802e3fbea4a8da7705b4da90c12f5
+# ab2554c28f264e91b068a8889cfb0df8
 msgid "How to contribute."
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:17
-# 5534ff3bff3e42afa7d6468b5d837041
+# 8691013f922140fda801196079aec2d6
 msgid "Use an issue tracker (see :ref:`support`) with a title containing: *Proposing a Recipe: Myrecipename*. The body will contain:"
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:19
-# bb6f9f184d31462c8d695c5930dcb511
+# b9493a2eb67e4f098ea85a227634e6a6
 msgid "author:  Required"
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:20
-# c183f1e5b2614346a03f8773b3004c29
+# e9c9424ca611463ba2980337cd150fd2
 msgid "mail: if you are subscribed to the developers list this is not necessary"
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:21
-# a298a2618ff7473daf9197b5350eaa87
+# 6da09305c01247339ccf88defa92dde9
 msgid "date: Date posted"
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:22
-# 6e750030bf2b4ced9bd94b395375690d
+# a80ac71c72874894935447dd7df7d1cf
 msgid "comments and code:  using reStructuredText format"
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:24
-# c5246530d9f24d4b8df5152f853e5e22
+# 5ef6a9f41f3a4cfbba760dd3e14fe23b
 msgid "Any contact with the author will be done using the developers mailing list. The pgRouting team will evaluate the recipe and will be included it in this section when approved."
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:27
-# 4862a2d5067047749692390b3295dcd6
+# d0cf3551e68b4e52b511fd91d8ce6a08
 msgid "Comparing topology of a unnoded network with a noded network"
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:30
-# d5714e6c4ca44084a08d00f3d7f7c5ea
+# 10738ef63e964855a8436ab2222cdc0e
 msgid "pgRouting team."
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:32
-# 1767d758a65f4480adef003ede1c7b85
+# e026a3a1fdc1460994550de9894cbced
 msgid "This recipe uses the :ref:`sampledata` network."
 msgstr ""
 
 #: ../../src/tutorial/recipes.rst:42
-# 2c5ce46cef0449e184aa0c0c132fd69d
+# 2f9f98b638214d749471a7bd7c7b22b4
 msgid "*No more contributions*"
 msgstr ""
 

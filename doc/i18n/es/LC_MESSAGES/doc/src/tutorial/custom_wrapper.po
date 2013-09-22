@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) pgRouting Contributors - Version 2.0.0-dev (129919f develop)
+# Copyright (C) pgRouting Contributors - Version 2.0.0 (ec59fc1 develop)
 # This file is distributed under the same license as the pgRouting package.
 # 
 # Translators:
@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 16:47\n"
-"PO-Revision-Date: 2013-08-10 15:08+0000\n"
+"POT-Creation-Date: 2013-09-20 23:09\n"
+"PO-Revision-Date: 2013-09-21 20:50+0000\n"
 "Last-Translator: cvvergara\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/pgrouting/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,53 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# eabd47deb6034d1c95a09b9014e26c69
+# 719b4c0e7c2e49d69341ac8843283107
 #: ../../src/tutorial/custom_wrapper.rst:13
-msgid "Custom Wrapper"
-msgstr "Envoltorios Personalizados"
+msgid "User's wrapper contributions"
+msgstr "Contribuciones de la envoltura del usuario"
+
+# 25eb6fc2fab344a69c73c1f1c421d595
+#: ../../src/tutorial/custom_wrapper.rst:16
+msgid "How to contribute."
+msgstr "Cómo contribuir."
+
+# f70a6311a55b45faa59b94882469e730
+#: ../../src/tutorial/custom_wrapper.rst:17
+msgid ""
+"Use an issue tracker (see :ref:`support`) with a title containing: "
+"*Proposing a wrapper: Mywrappername*. The body will contain:"
+msgstr "Utilice un issue tracker de (ver :ref:`Soporte <support>`) con un título que contiene: *Proposing a wrapper: MiNombreDeENVOLTORIO*. El cuerpo debe contener:"
+
+# 551cd069128c425d820598b94a3bd55f
+#: ../../src/tutorial/custom_wrapper.rst:19
+msgid "author:  Required"
+msgstr "Autor: requerido"
+
+# ab8bb326261b4df49f0c0ceb4e6051d9
+#: ../../src/tutorial/custom_wrapper.rst:20
+msgid ""
+"mail: if you are subscribed to the developers list this is not necessary"
+msgstr "Correo: Si usted está suscrito a la lista de los desarrolladores no es necesario"
+
+# 0520fffe0bf64dde97e5ddcb3e488ca9
+#: ../../src/tutorial/custom_wrapper.rst:21
+msgid "date: Date posted"
+msgstr "Fecha: fecha"
+
+# 565329f46edf4a8f8a66817639ca3b20
+#: ../../src/tutorial/custom_wrapper.rst:22
+msgid "comments and code:  using reStructuredText format"
+msgstr "Comentarios y código: formato reStructuredText"
+
+# 817b26ec883a4d93a7ea5be16c466f16
+#: ../../src/tutorial/custom_wrapper.rst:24
+msgid ""
+"Any contact with the author will be done using the developers mailing list. "
+"The pgRouting team will evaluate the wrapper and will be included it in this"
+" section when approved."
+msgstr "Cualquier contacto con el autor se hará utilizando la lista de correo de desarrolladores. El equipo pgRouting evaluará el envoltorio y será incluido en esta sección cuando sea aprobado."
+
+# 158722be4d914037bc52e264e4cbb6f4
+#: ../../src/tutorial/custom_wrapper.rst:27
+msgid "*No contributions at this time*"
+msgstr "*No hay contribuciones*"
